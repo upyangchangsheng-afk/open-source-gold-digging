@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "khoj-ai-khoj",
+    "editorNote": "开源RAG检索增强生成应用，可自部署为企业内部知识库助手。有Docker，部署门槛低，企业数据隐私需求强烈。",
+    "week": "2026-W19"
+  },
+  {
+    "slug": "elie222-inbox-zero",
+    "editorNote": "AI邮件助手，自动整理收件箱。邮件管理是所有人的痛点，SaaS化收费意愿强，竞品Superhuman估值超10亿。",
+    "week": "2026-W19"
+  },
+  {
+    "slug": "plandex-ai-plandex",
+    "editorNote": "命令行AI编程Agent，适合技术用户。可包装为IDE插件或企业内部开发者工具，Cursor同类市场ARR超1亿美元。",
+    "week": "2026-W19"
+  }
+]

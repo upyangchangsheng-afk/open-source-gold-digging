@@ -1,0 +1,2220 @@
+[
+  {
+    "slug": "AlexPEClub-ai-coding-starter-kit",
+    "repoId": "AlexPEClub/ai-coding-starter-kit",
+    "owner": "AlexPEClub",
+    "repo": "ai-coding-starter-kit",
+    "url": "https://github.com/AlexPEClub/ai-coding-starter-kit",
+    "homepage": "",
+    "description": "Production-ready Next.js template with AI-powered development workflow using 6 specialized agents",
+    "stars": 268,
+    "language": "TypeScript",
+    "license": "",
+    "topics": [],
+    "createdAt": "2026-01-12",
+    "updatedAt": "2026-05-06",
+    "source": "api_search",
+    "categoryTag": "赚钱项目",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "项目模板/脚手架，快速搭建Production-ready Next.js template with AI-powered development workflow using 6 s（英文原文）",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "直接卖模板/主题授权",
+      "基于模板做定制开发服务",
+      "出教程教别人如何基于此模板开发"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "📦 模板/脚手架",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 12889,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "chenjigang4167-testhub_platform",
+    "repoId": "chenjigang4167/testhub_platform",
+    "owner": "chenjigang4167",
+    "repo": "testhub_platform",
+    "url": "https://github.com/chenjigang4167/testhub_platform",
+    "homepage": "",
+    "description": "AI-Powered Testing Platform",
+    "stars": 479,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "2026-01-04",
+    "updatedAt": "2026-05-07",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "Web 应用，让你AI-Powered Testing Platform（英文原文）",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "部署为 SaaS 服务，按月/年订阅收费",
+      "提供托管版，收取运维服务费"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 17492,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "rockydant-ai-market",
+    "repoId": "rockydant/ai-market",
+    "owner": "rockydant",
+    "repo": "ai-market",
+    "url": "https://github.com/rockydant/ai-market",
+    "homepage": "",
+    "description": "",
+    "stars": 348,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "2025-11-28",
+    "updatedAt": "2026-05-03",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "开发库/框架，帮开发者完成 AI 相关任务",
+    "corePainPoint": "currently",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 50000,
+    "hasDocker": true,
+    "hasDockerCompose": true,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "adminlove520-AI-Account-Toolkit",
+    "repoId": "adminlove520/AI-Account-Toolkit",
+    "owner": "adminlove520",
+    "repo": "AI-Account-Toolkit",
+    "url": "https://github.com/adminlove520/AI-Account-Toolkit",
+    "homepage": "",
+    "description": "AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, Codex, Cursor, Grok 批量注册、Token 管理、临时邮箱服务",
+    "stars": 497,
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+      "account-registration",
+      "ai-tools",
+      "automation",
+      "chatgpt",
+      "claude",
+      "codex",
+      "cursor",
+      "gemini",
+      "openai",
+      "temp-email"
+    ],
+    "createdAt": "2026-03-25",
+    "updatedAt": "2026-05-07",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, Codex, Cursor, Grok 批量注册、Token 管理、临时（英文原文）",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "出视频课程 / 写付费教程赚培训费",
+      "提供企业级技术支持订阅",
+      "基于该库做垂直领域的 SaaS 产品"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🟡 路径可见",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 14869,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": false,
+    "hasCi": false
+  },
+  {
+    "slug": "bestpracticaI-kalshi-ai-trading-bot",
+    "repoId": "bestpracticaI/kalshi-ai-trading-bot",
+    "owner": "bestpracticaI",
+    "repo": "kalshi-ai-trading-bot",
+    "url": "https://github.com/bestpracticaI/kalshi-ai-trading-bot",
+    "homepage": "https://github.com/bestpracticaI/kalshi-ai-trading-bot",
+    "description": "Kalshi prediction markets trading bot algorithmic automated trading TypeScript Node.js Kalshi REST API RSA signing OpenRouter LLM CLI npm quant fintech event contracts market making exchange API bot Kalshi SDK",
+    "stars": 221,
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [
+      "algorithmic-trading",
+      "automated-trading",
+      "cli",
+      "event-contracts",
+      "exchange-api",
+      "fintech",
+      "kalshi",
+      "kalshi-api",
+      "kalshi-trading",
+      "llm",
+      "market-making",
+      "nodejs",
+      "nodejs-bot",
+      "npm",
+      "openrouter",
+      "prediction-markets",
+      "quantitative-finance",
+      "rest-api",
+      "trading-bot",
+      "typescript"
+    ],
+    "createdAt": "2026-05-04",
+    "updatedAt": "2026-05-07",
+    "source": "api_search",
+    "categoryTag": "垂直AI应用",
+    "displayCategory": "need-modify",
+    "intelligenceLevel": 2,
+    "oneLiner": "命令行工具，帮你集成大语言模型",
+    "corePainPoint": "currently、before",
+    "monetizationPaths": [
+      "做成可视化桌面版或 Web 版，降低使用门槛",
+      "开发 IDE 插件集成，扩大用户群",
+      "面向企业提供定制版 + 技术支持"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🛠 独立工具",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🟡 路径可见",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "🔌 API依赖风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 16079,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "6551-Team-ai-auto-trading",
+    "repoId": "6551-Team/ai-auto-trading",
+    "owner": "6551-Team",
+    "repo": "ai-auto-trading",
+    "url": "https://github.com/6551-Team/ai-auto-trading",
+    "homepage": "https://voltagent.dev",
+    "description": "AI-driven multi-strategy crypto trading on VoltAgent. Gate.io & Binance, adaptive risk, ai auto trading, trading bot, ai trading bot, binance, coinbase, ai trading, ai trading bot, ai trading bot , ai trading bot, ai bot, binance, coinbase, hyperliquid,AI-driven multi-strategy crypto trading on VoltAgent. Gate.io & Binance, adaptive risk, ai auto",
+    "stars": 40,
+    "language": "TypeScript",
+    "license": "AGPL-3.0",
+    "topics": [
+      "ai-agent",
+      "artificial-intelligence",
+      "automated-trading",
+      "bitcoin",
+      "ccxt",
+      "cryptocurrency",
+      "gate-io",
+      "nexus-quant",
+      "nodejs",
+      "trading",
+      "typescript",
+      "voltagent"
+    ],
+    "createdAt": "2026-04-27",
+    "updatedAt": "2026-05-06",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "开发库/框架，帮开发者构建 AI Agent 智能体",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🔴 做不了",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🔴 濒临废弃",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "👤 维护者风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 9192,
+    "hasDocker": true,
+    "hasDockerCompose": true,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "LearnPrompt-ai-news-radar",
+    "repoId": "LearnPrompt/ai-news-radar",
+    "owner": "LearnPrompt",
+    "repo": "ai-news-radar",
+    "url": "https://github.com/LearnPrompt/ai-news-radar",
+    "homepage": "https://learnprompt.github.io/ai-news-radar/",
+    "description": "AI/tech news radar with GitHub Actions updates and a live web UI",
+    "stars": 299,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "2026-02-21",
+    "updatedAt": "2026-05-07",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "Web 应用，让你AI/tech news radar with GitHub Actions updates and a live web UI（英文原文）",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "部署为 SaaS 服务，按月/年订阅收费",
+      "提供托管版，收取运维服务费"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 5786,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": true
+  },
+  {
+    "slug": "liangdabiao-perler-beads-ai",
+    "repoId": "liangdabiao/perler-beads-ai",
+    "owner": "liangdabiao",
+    "repo": "perler-beads-ai",
+    "url": "https://github.com/liangdabiao/perler-beads-ai",
+    "homepage": "https://pindou.348349.xyz/",
+    "description": "因为市面上的拼豆软件差强人意 ，所以我基于开源项目：Zippland/perler-beads ，带小程序（perlerBeadsApplet） 我加上AI优化了项目，AI辅助优化图片功能，写了一个专门生成拼豆图纸的网站。 经过大量测试，我觉得已经可以达到 一键生成拼豆图纸了！我还有乐高积木拼豆： github.com/liangdabiao/brickMosaic",
+    "stars": 100,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "topics": [
+      "ai"
+    ],
+    "createdAt": "2026-02-26",
+    "updatedAt": "2026-05-06",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "Web 应用，让你因为市面上的拼豆软件差强人意 ，所以我基于开源项目：Zippland/perler-beads ，带小程序（perlerBeadsApplet） 我加上AI优化（英文原文）",
+    "corePainPoint": "困难",
+    "monetizationPaths": [
+      "部署为 SaaS 服务，按月/年订阅收费",
+      "做白标版本，卖给企业客户",
+      "提供托管版，收取运维服务费"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🟡 路径可见",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 10783,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": false,
+    "hasCi": false
+  },
+  {
+    "slug": "aibuildai-AI-Build-AI",
+    "repoId": "aibuildai/AI-Build-AI",
+    "owner": "aibuildai",
+    "repo": "AI-Build-AI",
+    "url": "https://github.com/aibuildai/AI-Build-AI",
+    "homepage": "",
+    "description": "AIBuildAI – An AI agent that automatically builds AI models (#1 on OpenAI MLE-Bench)",
+    "stars": 264,
+    "language": "Python",
+    "license": "MIT",
+    "topics": [],
+    "createdAt": "2026-03-15",
+    "updatedAt": "2026-05-05",
+    "source": "api_search",
+    "categoryTag": "AI模型/权重",
+    "displayCategory": "learn-reference",
+    "intelligenceLevel": 1,
+    "oneLiner": "AI 模型，用于构建AI – An AI agent that automatically builds AI models (#1 on OpenAI MLE-Bench)",
+    "corePainPoint": "problem",
+    "monetizationPaths": [
+      "提供模型微调服务，按项目收费",
+      "做托管 API，按调用量收费",
+      "做垂直行业的定制模型"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🛠 独立工具",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🟡 路径可见",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 6066,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "hulutech-web-novel-video-workflow",
+    "repoId": "hulutech-web/novel-video-workflow",
+    "owner": "hulutech-web",
+    "repo": "novel-video-workflow",
+    "url": "https://github.com/hulutech-web/novel-video-workflow",
+    "homepage": "https://yadou.net",
+    "description": "完全本地的AI小说视频生成工作流，每个人都能成为导演！",
+    "stars": 272,
+    "language": "Go",
+    "license": "",
+    "topics": [
+      "ai",
+      "novels"
+    ],
+    "createdAt": "2026-01-10",
+    "updatedAt": "2026-05-06",
+    "source": "api_search",
+    "categoryTag": "AI插件/扩展",
+    "displayCategory": "need-modify",
+    "intelligenceLevel": 1,
+    "oneLiner": "开发库/框架，帮开发者完全本地的AI小说视频生成工作流，每个人都能成为导演！（英文原文）",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🔌 插件/扩展",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 8582,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": false,
+    "hasCi": false
+  },
+  {
+    "slug": "burpheart-cursor-tap",
+    "repoId": "burpheart/cursor-tap",
+    "owner": "burpheart",
+    "repo": "cursor-tap",
+    "url": "https://github.com/burpheart/cursor-tap",
+    "homepage": "",
+    "description": "Cursor gRPC 通信流量分析工具",
+    "stars": 331,
+    "language": "Go",
+    "license": "",
+    "topics": [
+      "ai",
+      "cursor"
+    ],
+    "createdAt": "2026-01-31",
+    "updatedAt": "2026-05-07",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "开发库/框架，帮开发者Cursor gRPC 通信流量分析工具（英文原文）",
+    "corePainPoint": "麻烦",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 1909,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": false,
+    "hasCi": false
+  },
+  {
+    "slug": "endless-sky-team-ai-trading-agent",
+    "repoId": "endless-sky-team/ai-trading-agent",
+    "owner": "endless-sky-team",
+    "repo": "ai-trading-agent",
+    "url": "https://github.com/endless-sky-team/ai-trading-agent",
+    "homepage": "https://github.com/endless-sky-team/ai-trading-agent",
+    "description": "llm trading bot ai agent crypto bitcoin ethereum perpetuals openrouter lighter algorithmic automated quant typescript react postgres bun fintech defi machine-learning open-source crypto-bot signals",
+    "stars": 209,
+    "language": "TypeScript",
+    "license": "",
+    "topics": [
+      "ai-trading",
+      "algorithmic-trading",
+      "automated-trading",
+      "bitcoin",
+      "bun",
+      "crypto-bot",
+      "cryptocurrency",
+      "defi",
+      "ethereum",
+      "fintech",
+      "lighter",
+      "llm",
+      "machine-learning",
+      "open-source",
+      "openrouter",
+      "postgresql",
+      "quantitative-finance",
+      "react",
+      "trading-bot",
+      "typescript"
+    ],
+    "createdAt": "2026-04-29",
+    "updatedAt": "2026-05-07",
+    "source": "api_search",
+    "categoryTag": "垂直AI应用",
+    "displayCategory": "need-modify",
+    "intelligenceLevel": 1,
+    "oneLiner": "开发库/框架，帮开发者集成大语言模型",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🛠 独立工具",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 12743,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": false,
+    "hasCi": false
+  },
+  {
+    "slug": "codexu-note-gen",
+    "repoId": "codexu/note-gen",
+    "owner": "codexu",
+    "repo": "note-gen",
+    "url": "https://github.com/codexu/note-gen",
+    "homepage": "https://notegen.top",
+    "description": "A cross-platform Markdown AI note-taking software.",
+    "stars": 11774,
+    "language": "TypeScript",
+    "license": "GPL-3.0",
+    "topics": [
+      "agent",
+      "chatbot",
+      "knowledge-base",
+      "llm",
+      "markdown",
+      "mcp",
+      "nextjs",
+      "note-taking",
+      "rag",
+      "tauri",
+      "webdav"
+    ],
+    "createdAt": "2024-08-06",
+    "updatedAt": "2026-05-07",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 3,
+    "oneLiner": "Web 应用，让你搭建 AI 聊天机器人",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "部署为 SaaS 服务，按月/年订阅收费",
+      "提供托管版，收取运维服务费"
+    ],
+    "actionSuggestions": [
+      "部署试用，用真实场景验证核心功能",
+      "理解项目价值主张和差异化",
+      "找到一个垂直细分场景做定制落地"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟡 有空间",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 7540,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "kdsz001-OpenWiki",
+    "repoId": "kdsz001/OpenWiki",
+    "owner": "kdsz001",
+    "repo": "OpenWiki",
+    "url": "https://github.com/kdsz001/OpenWiki",
+    "homepage": "",
+    "description": "OpenWiki — Mac desktop AI knowledge management tool. Capture clipboard, build personal wiki, get AI insights.",
+    "stars": 125,
+    "language": "Rust",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "clipboard",
+      "desktop-app",
+      "knowledge-management",
+      "macos",
+      "react",
+      "rust",
+      "sqlite",
+      "tauri"
+    ],
+    "createdAt": "2026-02-13",
+    "updatedAt": "2026-05-06",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "命令行工具，帮你构建personal wiki, get AI insights.",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "做成可视化桌面版或 Web 版，降低使用门槛",
+      "开发 IDE 插件集成，扩大用户群",
+      "面向企业提供定制版 + 技术支持"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🟡 路径可见",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 4941,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "zeroclaw-labs-zeroclaw",
+    "repoId": "zeroclaw-labs/zeroclaw",
+    "owner": "zeroclaw-labs",
+    "repo": "zeroclaw",
+    "url": "https://github.com/zeroclaw-labs/zeroclaw",
+    "homepage": "https://www.zeroclawlabs.ai/",
+    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀",
+    "stars": 31091,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "topics": [
+      "agent",
+      "agentic",
+      "ai",
+      "infra",
+      "ml",
+      "openclaw",
+      "os",
+      "zeroclaw"
+    ],
+    "createdAt": "2026-02-13",
+    "updatedAt": "2026-05-07",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 3,
+    "oneLiner": "Web 应用，让你构建 AI Agent 智能体",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "部署为 SaaS 服务，按月/年订阅收费",
+      "做白标版本，卖给企业客户",
+      "提供托管版，收取运维服务费"
+    ],
+    "actionSuggestions": [
+      "docker-compose 一键部署，5 分钟内跑起来",
+      "用自己真实场景测试核心功能是否满足需求",
+      "验证通过后立即做垂直定制版，锁定细分市场"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🟢 路径明确",
+      "竞争烈度": "🟡 有空间",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 9978,
+    "hasDocker": true,
+    "hasDockerCompose": true,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "elie222-inbox-zero",
+    "repoId": "elie222/inbox-zero",
+    "owner": "elie222",
+    "repo": "inbox-zero",
+    "url": "https://github.com/elie222/inbox-zero",
+    "homepage": "https://getinboxzero.com",
+    "description": "The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.",
+    "stars": 10635,
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "topics": [
+      "ai",
+      "email",
+      "gmail",
+      "loops",
+      "nextjs",
+      "openai",
+      "postgresql",
+      "posthog",
+      "prisma",
+      "productivity",
+      "resend",
+      "shadcn-ui",
+      "tailwind",
+      "tinybird",
+      "turborepo",
+      "typescript",
+      "upstash"
+    ],
+    "createdAt": "2023-07-12",
+    "updatedAt": "2026-05-06",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 3,
+    "oneLiner": "Web 应用，让你The world's best AI personal assistant for email. Open source app to help you re（英文原文）",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "部署为 SaaS 服务，按月/年订阅收费",
+      "提供托管版，收取运维服务费"
+    ],
+    "actionSuggestions": [
+      "部署试用，用真实场景验证核心功能",
+      "理解项目价值主张和差异化",
+      "找到一个垂直细分场景做定制落地"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟡 有空间",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 6105,
+    "hasDocker": false,
+    "hasDockerCompose": true,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "CodePhiliaX-youclaw",
+    "repoId": "CodePhiliaX/youclaw",
+    "owner": "CodePhiliaX",
+    "repo": "youclaw",
+    "url": "https://github.com/CodePhiliaX/youclaw",
+    "homepage": "https://youclaw.dev",
+    "description": "🦞 Your AI Personal Assistant.  An intelligent assistant with memory, skills, and scheduled tasks that truly understands you . Helping you tackle everything in work and life.",
+    "stars": 697,
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "claude",
+      "claude-code",
+      "openclaw"
+    ],
+    "createdAt": "2026-03-10",
+    "updatedAt": "2026-05-06",
+    "source": "api_search",
+    "categoryTag": "垂直AI应用",
+    "displayCategory": "need-modify",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者构建 AI Agent 智能体",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "出视频课程 / 写付费教程赚培训费",
+      "提供企业级技术支持订阅",
+      "基于该库做垂直领域的 SaaS 产品"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🛠 独立工具",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🟡 路径可见",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 10650,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "markfulton-NanoBananaEditor",
+    "repoId": "markfulton/NanoBananaEditor",
+    "owner": "markfulton",
+    "repo": "NanoBananaEditor",
+    "url": "https://github.com/markfulton/NanoBananaEditor",
+    "homepage": "https://nanobananaeditor.dev",
+    "description": "The most advanced Nano Banana image generator and editor application. Your central hub for AI image generation and revisions. Intuitive UI features reference images, editing with image masks, version history, and more. Powered by Gemini 2.5 Flash images API.",
+    "stars": 674,
+    "language": "TypeScript",
+    "license": "AGPL-3.0",
+    "topics": [
+      "aiimages",
+      "bolt",
+      "imageediting",
+      "imageeditor",
+      "imagegeneration",
+      "imagegenerator",
+      "imagemasking",
+      "text-to-image",
+      "text-to-image-generation",
+      "vibecode",
+      "vibecoding"
+    ],
+    "createdAt": "2025-08-31",
+    "updatedAt": "2026-04-30",
+    "source": "api_search",
+    "categoryTag": "AI插件/扩展",
+    "displayCategory": "need-modify",
+    "intelligenceLevel": 2,
+    "oneLiner": "API 服务，提供生成 AI 图像",
+    "corePainPoint": "currently",
+    "monetizationPaths": [
+      "提供 API 中转代理服务",
+      "做 API 管理后台 + 用量计费系统",
+      "封装为各语言 SDK，建立生态"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🔌 插件/扩展",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "🔌 API依赖风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 8898,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "vargHQ-sdk",
+    "repoId": "vargHQ/sdk",
+    "owner": "vargHQ",
+    "repo": "sdk",
+    "url": "https://github.com/vargHQ/sdk",
+    "homepage": "https://varg.ai/sdk",
+    "description": "AI video generation SDK — JSX for videos. One API for Kling, Flux, ElevenLabs, Sora. Built on Vercel AI SDK.",
+    "stars": 285,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "topics": [
+      "ai-sdk",
+      "ai-video",
+      "claude-code",
+      "cursor",
+      "elevenlabs",
+      "flux",
+      "generative-ai",
+      "image-to-video",
+      "jsx",
+      "kling",
+      "lipsync",
+      "seedance",
+      "sora",
+      "text-to-speech",
+      "text-to-video",
+      "typescript",
+      "vercel-ai-sdk",
+      "video-api",
+      "video-generation",
+      "wan"
+    ],
+    "createdAt": "2025-11-22",
+    "updatedAt": "2026-05-01",
+    "source": "api_search",
+    "categoryTag": "AI开发框架",
+    "displayCategory": "learn-reference",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者生成 AI 视频",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "出视频课程 / 写付费教程赚培训费",
+      "提供企业级技术支持订阅",
+      "基于该库做垂直领域的 SaaS 产品"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "📚 框架/库",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🟡 路径可见",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "🔌 API依赖风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 10861,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "exo-explore-exo",
+    "repoId": "exo-explore/exo",
+    "owner": "exo-explore",
+    "repo": "exo",
+    "url": "https://github.com/exo-explore/exo",
+    "homepage": "",
+    "description": "Run frontier AI locally.",
+    "stars": 44386,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "topics": [],
+    "createdAt": "2024-06-24",
+    "updatedAt": "2026-05-07",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 3,
+    "oneLiner": "开发库/框架，帮开发者Run frontier AI locally.（英文原文）",
+    "corePainPoint": "currently、before",
+    "monetizationPaths": [
+      "出视频课程 / 写付费教程赚培训费",
+      "提供企业级技术支持订阅",
+      "基于该库做垂直领域的 SaaS 产品"
+    ],
+    "actionSuggestions": [
+      "阅读核心模块源码（约 500 行），理解架构设计",
+      "找一个具体业务场景，写一个最小可行 demo",
+      "评估：开发效率提升多少？维护成本是否可控？"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🟢 路径明确",
+      "竞争烈度": "🟡 有空间",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 20525,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "ANOOBALSA-FitGirl-Repacks-Manager",
+    "repoId": "ANOOBALSA/FitGirl-Repacks-Manager",
+    "owner": "ANOOBALSA",
+    "repo": "FitGirl-Repacks-Manager",
+    "url": "https://github.com/ANOOBALSA/FitGirl-Repacks-Manager",
+    "homepage": "",
+    "description": "",
+    "stars": 55,
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [],
+    "createdAt": "2026-03-30",
+    "updatedAt": "2026-05-06",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "开发库/框架，帮开发者完成 AI 相关任务",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "出视频课程 / 写付费教程赚培训费",
+      "提供企业级技术支持订阅",
+      "基于该库做垂直领域的 SaaS 产品"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🔴 做不了",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🔴 濒临废弃",
+      "盈利路径": "🟡 路径可见",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "👤 维护者风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 2453,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "sandhani01-Hand-writing-generator",
+    "repoId": "sandhani01/Hand-writing-generator",
+    "owner": "sandhani01",
+    "repo": "Hand-writing-generator",
+    "url": "https://github.com/sandhani01/Hand-writing-generator",
+    "homepage": "https://handwritten-assignment-generator.vercel.app",
+    "description": "",
+    "stars": 46,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "2026-04-08",
+    "updatedAt": "2026-05-05",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "开发库/框架，帮开发者完成 AI 相关任务",
+    "corePainPoint": "currently",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🔴 做不了",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🔴 濒临废弃",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "👤 维护者风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 8210,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "JeevansSP-resume-optimizer",
+    "repoId": "JeevansSP/resume-optimizer",
+    "owner": "JeevansSP",
+    "repo": "resume-optimizer",
+    "url": "https://github.com/JeevansSP/resume-optimizer",
+    "homepage": "",
+    "description": "Open-source AI resume tailoring service — upload PDF, paste job description, get an ATS-optimized resume. Built with FastAPI, Vue 3, Google Gemini, and LaTeX.",
+    "stars": 33,
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "ats",
+      "fastapi",
+      "gemini",
+      "google-adk",
+      "job-search",
+      "latex",
+      "open-source",
+      "pdflatex",
+      "python",
+      "razorpay",
+      "resume",
+      "resume-builder",
+      "vue3"
+    ],
+    "createdAt": "2026-04-06",
+    "updatedAt": "2026-04-30",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "API 服务，提供Open-source AI resume tailoring service — upload PDF, paste job description, get（英文原文）",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "提供 API 中转代理服务",
+      "做 API 管理后台 + 用量计费系统",
+      "封装为各语言 SDK，建立生态"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🔴 做不了",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🔴 濒临废弃",
+      "盈利路径": "🟡 路径可见",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "🔌 API依赖风险",
+        "👤 维护者风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 16641,
+    "hasDocker": true,
+    "hasDockerCompose": true,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "caliber-ai-org-ai-setup",
+    "repoId": "caliber-ai-org/ai-setup",
+    "owner": "caliber-ai-org",
+    "repo": "ai-setup",
+    "url": "https://github.com/caliber-ai-org/ai-setup",
+    "homepage": "https://caliber-ai.dev",
+    "description": "Continuously sync your AI setups with one command. Codebase tailor suited agent skills, MCPs and config files for Claude Code, Cursor, and Codex.",
+    "stars": 1014,
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [
+      "agent-config",
+      "ai-agents",
+      "anthropic",
+      "claude-code",
+      "claude-md",
+      "cli",
+      "codex",
+      "cursor",
+      "cursorrules",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "openai",
+      "openai-codex",
+      "skills"
+    ],
+    "createdAt": "2026-03-10",
+    "updatedAt": "2026-05-06",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "命令行工具，帮你构建 AI Agent 智能体",
+    "corePainPoint": "problem、before",
+    "monetizationPaths": [
+      "做成可视化桌面版或 Web 版，降低使用门槛",
+      "开发 IDE 插件集成，扩大用户群",
+      "面向企业提供定制版 + 技术支持"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟡 轻二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟡 活跃成长",
+      "盈利路径": "🟢 路径明确",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 17314,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "naveenraj-17-synapse-ai",
+    "repoId": "naveenraj-17/synapse-ai",
+    "owner": "naveenraj-17",
+    "repo": "synapse-ai",
+    "url": "https://github.com/naveenraj-17/synapse-ai",
+    "homepage": "https://synapseorch.com",
+    "description": "Build AI agents that actually do things. Synapse is an open-source platform for creating, connecting, and orchestrating AI agents powered by any LLM — local, cloud or CLIs.",
+    "stars": 47,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "topics": [
+      "custom-agents",
+      "custom-tools",
+      "directed-acyclic-graph",
+      "llm-agent",
+      "mcp-client",
+      "mcp-server",
+      "mcp-servers",
+      "mcp-tools",
+      "multi-agent",
+      "multi-agent-orchestration",
+      "multi-agent-systems",
+      "n8n"
+    ],
+    "createdAt": "2026-03-26",
+    "updatedAt": "2026-05-07",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "命令行工具，帮你构建 AI Agent 智能体",
+    "corePainPoint": "problem、currently、before",
+    "monetizationPaths": [
+      "做成可视化桌面版或 Web 版，降低使用门槛",
+      "开发 IDE 插件集成，扩大用户群",
+      "面向企业提供定制版 + 技术支持"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🔴 做不了",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🔴 濒临废弃",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "👤 维护者风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 25835,
+    "hasDocker": false,
+    "hasDockerCompose": true,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "lightningpixel-modly",
+    "repoId": "lightningpixel/modly",
+    "owner": "lightningpixel",
+    "repo": "modly",
+    "url": "https://github.com/lightningpixel/modly",
+    "homepage": "https://modly3d.app",
+    "description": "Desktop app to generate 3D models from images using local AI — runs entirely on your GPU",
+    "stars": 2547,
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "topics": [
+      "3d",
+      "ai-local",
+      "ai-tools",
+      "desktop-app",
+      "modly",
+      "open-source",
+      "self-hosted"
+    ],
+    "createdAt": "2026-03-17",
+    "updatedAt": "2026-05-07",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "AI 模型，用于生成3D models from images using local AI — runs entirely on your GPU",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "学习模型架构和训练方法",
+      "参考其思路训练自己的模型"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟡 轻二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟡 活跃成长",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 3870,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "diegosouzapw-OmniRoute",
+    "repoId": "diegosouzapw/OmniRoute",
+    "owner": "diegosouzapw",
+    "repo": "OmniRoute",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "homepage": "https://omniroute.online",
+    "description": "Never stop coding. Free AI gateway: one endpoint, 160+ providers, RTK+Caveman stacked compression up to ~95% eligible context savings, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+    "stars": 4070,
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [
+      "gateway",
+      "llm-tools",
+      "mcp-gateway",
+      "proxy-server",
+      "token-optimization"
+    ],
+    "createdAt": "2026-02-13",
+    "updatedAt": "2026-05-07",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "API 服务，提供集成大语言模型",
+    "corePainPoint": "problem、currently、before",
+    "monetizationPaths": [
+      "提供 API 中转代理服务",
+      "做 API 管理后台 + 用量计费系统",
+      "封装为各语言 SDK，建立生态"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟡 轻二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟡 活跃成长",
+      "盈利路径": "🟢 路径明确",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "🔌 API依赖风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 50000,
+    "hasDocker": true,
+    "hasDockerCompose": true,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "virattt-ai-hedge-fund",
+    "repoId": "virattt/ai-hedge-fund",
+    "owner": "virattt",
+    "repo": "ai-hedge-fund",
+    "url": "https://github.com/virattt/ai-hedge-fund",
+    "homepage": "",
+    "description": "An AI Hedge Fund Team",
+    "stars": 58225,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "2024-11-29",
+    "updatedAt": "2026-05-07",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 3,
+    "oneLiner": "开发库/框架，帮开发者An AI Hedge Fund Team（英文原文）",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [
+      "阅读核心模块源码（约 500 行），理解架构设计",
+      "找一个具体业务场景，写一个最小可行 demo",
+      "评估：开发效率提升多少？维护成本是否可控？"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟠 拥挤",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 6330,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "khoj-ai-khoj",
+    "repoId": "khoj-ai/khoj",
+    "owner": "khoj-ai",
+    "repo": "khoj",
+    "url": "https://github.com/khoj-ai/khoj",
+    "homepage": "https://khoj.dev",
+    "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
+    "stars": 34416,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "topics": [
+      "agent",
+      "ai",
+      "assistant",
+      "chat",
+      "chatgpt",
+      "emacs",
+      "image-generation",
+      "llama3",
+      "llamacpp",
+      "llm",
+      "obsidian",
+      "obsidian-md",
+      "offline-llm",
+      "productivity",
+      "rag",
+      "research",
+      "self-hosted",
+      "semantic-search",
+      "stt",
+      "whatsapp-ai"
+    ],
+    "createdAt": "2021-08-16",
+    "updatedAt": "2026-05-07",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 3,
+    "oneLiner": "Web 应用，让你实现 RAG 检索增强生成",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "部署为 SaaS 服务，按月/年订阅收费",
+      "提供托管版，收取运维服务费"
+    ],
+    "actionSuggestions": [
+      "docker-compose 一键部署，5 分钟内跑起来",
+      "用自己真实场景测试核心功能是否满足需求",
+      "验证通过后立即做垂直定制版，锁定细分市场"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟡 有空间",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 4657,
+    "hasDocker": true,
+    "hasDockerCompose": true,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "circlemind-ai-fast-graphrag",
+    "repoId": "circlemind-ai/fast-graphrag",
+    "owner": "circlemind-ai",
+    "repo": "fast-graphrag",
+    "url": "https://github.com/circlemind-ai/fast-graphrag",
+    "homepage": "",
+    "description": "RAG that intelligently adapts to your use case, data, and queries",
+    "stars": 3783,
+    "language": "Python",
+    "license": "MIT",
+    "topics": [],
+    "createdAt": "2024-10-30",
+    "updatedAt": "2026-05-07",
+    "source": "external_ref",
+    "categoryTag": "AI开发框架",
+    "displayCategory": "learn-reference",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者RAG that intelligently adapts to your use case, data, and queries（英文原文）",
+    "corePainPoint": "currently",
+    "monetizationPaths": [
+      "出视频课程 / 写付费教程赚培训费",
+      "提供企业级技术支持订阅",
+      "基于该库做垂直领域的 SaaS 产品"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟡 轻二开",
+      "产出结果": "📚 框架/库",
+      "持续性": "🟡 活跃成长",
+      "盈利路径": "🟢 路径明确",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 6524,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "mastra-ai-mastra",
+    "repoId": "mastra-ai/mastra",
+    "owner": "mastra-ai",
+    "repo": "mastra",
+    "url": "https://github.com/mastra-ai/mastra",
+    "homepage": "https://mastra.ai",
+    "description": "From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack.",
+    "stars": 23623,
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "topics": [
+      "agents",
+      "ai",
+      "chatbots",
+      "evals",
+      "javascript",
+      "llm",
+      "mcp",
+      "nextjs",
+      "nodejs",
+      "reactjs",
+      "tts",
+      "typescript",
+      "workflows"
+    ],
+    "createdAt": "2024-08-06",
+    "updatedAt": "2026-05-07",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 3,
+    "oneLiner": "开发库/框架，帮开发者搭建 AI 聊天机器人",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [
+      "阅读核心模块源码（约 500 行），理解架构设计",
+      "找一个具体业务场景，写一个最小可行 demo",
+      "评估：开发效率提升多少？维护成本是否可控？"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟡 有空间",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 6226,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "Skyvern-AI-skyvern",
+    "repoId": "Skyvern-AI/skyvern",
+    "owner": "Skyvern-AI",
+    "repo": "skyvern",
+    "url": "https://github.com/Skyvern-AI/skyvern",
+    "homepage": "https://www.skyvern.com",
+    "description": "Automate browser based workflows with AI",
+    "stars": 21518,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "topics": [
+      "ai",
+      "api",
+      "automation",
+      "browser",
+      "browser-automation",
+      "computer",
+      "gpt",
+      "llm",
+      "playwright",
+      "powerautomate",
+      "puppeteer",
+      "python",
+      "rpa",
+      "selenium",
+      "vision",
+      "workflow"
+    ],
+    "createdAt": "2024-02-28",
+    "updatedAt": "2026-05-07",
+    "source": "external_ref",
+    "categoryTag": "AI插件/扩展",
+    "displayCategory": "need-modify",
+    "intelligenceLevel": 3,
+    "oneLiner": "开发库/框架，帮开发者集成大语言模型",
+    "corePainPoint": "currently、before",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [
+      "阅读核心模块源码（约 500 行），理解架构设计",
+      "找一个具体业务场景，写一个最小可行 demo",
+      "评估：开发效率提升多少？维护成本是否可控？"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🔌 插件/扩展",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟡 有空间",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 23922,
+    "hasDocker": true,
+    "hasDockerCompose": true,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "invoke-ai-InvokeAI",
+    "repoId": "invoke-ai/InvokeAI",
+    "owner": "invoke-ai",
+    "repo": "InvokeAI",
+    "url": "https://github.com/invoke-ai/InvokeAI",
+    "homepage": "https://invoke-ai.github.io/InvokeAI/",
+    "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
+    "stars": 27116,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "topics": [
+      "ai-art",
+      "artificial-intelligence",
+      "generative-art",
+      "image-generation",
+      "img2img",
+      "inpainting",
+      "latent-diffusion",
+      "linux",
+      "macos",
+      "outpainting",
+      "stable-diffusion",
+      "txt2img",
+      "windows"
+    ],
+    "createdAt": "2022-08-17",
+    "updatedAt": "2026-05-07",
+    "source": "external_ref",
+    "categoryTag": "AI模型/权重",
+    "displayCategory": "learn-reference",
+    "intelligenceLevel": 3,
+    "oneLiner": "AI 模型，用于生成 AI 图像",
+    "corePainPoint": "problem",
+    "monetizationPaths": [
+      "提供模型微调服务，按项目收费",
+      "做托管 API，按调用量收费",
+      "做垂直行业的定制模型"
+    ],
+    "actionSuggestions": [
+      "下载模型用自己数据跑一遍，对比现有方案效果",
+      "评估微调成本（数据准备 + 算力 + 时间）",
+      "调研：这个模型在什么垂直场景里有独特优势？"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🛠 独立工具",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🟢 路径明确",
+      "竞争烈度": "🟡 有空间",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 7036,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "omnara-ai-omnara",
+    "repoId": "omnara-ai/omnara",
+    "owner": "omnara-ai",
+    "repo": "omnara",
+    "url": "https://github.com/omnara-ai/omnara",
+    "homepage": "https://omnara.com",
+    "description": "Omnara (YC S25) - Talk to Your AI Agents from Anywhere!",
+    "stars": 2629,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "topics": [],
+    "createdAt": "2025-07-09",
+    "updatedAt": "2026-05-05",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者Omnara (YC S25) - Talk to Your AI Agents from Anywhere!（英文原文）",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "出视频课程 / 写付费教程赚培训费",
+      "提供企业级技术支持订阅",
+      "基于该库做垂直领域的 SaaS 产品"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟡 轻二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟡 活跃成长",
+      "盈利路径": "🟢 路径明确",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 11308,
+    "hasDocker": false,
+    "hasDockerCompose": true,
+    "hasTests": true,
+    "hasCi": true
+  },
+  {
+    "slug": "plandex-ai-plandex",
+    "repoId": "plandex-ai/plandex",
+    "owner": "plandex-ai",
+    "repo": "plandex",
+    "url": "https://github.com/plandex-ai/plandex",
+    "homepage": "https://plandex.ai",
+    "description": "Open source AI coding agent. Designed for large projects and real world tasks.",
+    "stars": 15333,
+    "language": "Go",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-developer-tools",
+      "ai-tools",
+      "cli",
+      "command-line",
+      "developer-tools",
+      "git",
+      "golang",
+      "gpt-4",
+      "llm",
+      "openai",
+      "polyglot-programming",
+      "terminal",
+      "terminal-based",
+      "terminal-ui"
+    ],
+    "createdAt": "2023-10-24",
+    "updatedAt": "2026-05-06",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 3,
+    "oneLiner": "命令行工具，帮你构建 AI Agent 智能体",
+    "corePainPoint": "problem、before、struggle",
+    "monetizationPaths": [
+      "做成可视化桌面版或 Web 版，降低使用门槛",
+      "开发 IDE 插件集成，扩大用户群",
+      "面向企业提供定制版 + 技术支持"
+    ],
+    "actionSuggestions": [
+      "部署试用，用真实场景验证核心功能",
+      "理解项目价值主张和差异化",
+      "找到一个垂直细分场景做定制落地"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🟢 路径明确",
+      "竞争烈度": "🟡 有空间",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 10697,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "abus-aikorea-voice-pro",
+    "repoId": "abus-aikorea/voice-pro",
+    "owner": "abus-aikorea",
+    "repo": "voice-pro",
+    "url": "https://github.com/abus-aikorea/voice-pro",
+    "homepage": "https://www.wctokyoseoul.com",
+    "description": "Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation.",
+    "stars": 9138,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "topics": [
+      "audiobook",
+      "faster-whisper",
+      "gradio",
+      "karaoke",
+      "podcasts",
+      "speech-recognition",
+      "speech-synthesis",
+      "speech-to-text",
+      "subtitles",
+      "text-to-speech",
+      "transcription",
+      "translator",
+      "tts",
+      "voice-cloning",
+      "voice-conversion",
+      "webui",
+      "whisper",
+      "whisperx",
+      "yt-dlp"
+    ],
+    "createdAt": "2024-07-29",
+    "updatedAt": "2026-05-07",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 3,
+    "oneLiner": "Web 应用，让你将文字转语音",
+    "corePainPoint": "hard to",
+    "monetizationPaths": [
+      "部署为 SaaS 服务，按月/年订阅收费",
+      "提供托管版，收取运维服务费"
+    ],
+    "actionSuggestions": [
+      "部署试用，用真实场景验证核心功能",
+      "理解项目价值主张和差异化",
+      "找到一个垂直细分场景做定制落地"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 31658,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "SciPhi-AI-R2R",
+    "repoId": "SciPhi-AI/R2R",
+    "owner": "SciPhi-AI",
+    "repo": "R2R",
+    "url": "https://github.com/SciPhi-AI/R2R",
+    "homepage": "",
+    "description": "SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.",
+    "stars": 7804,
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+      "artificial-intelligence",
+      "large-language-models",
+      "python",
+      "question-answering",
+      "rag",
+      "retrieval-augmented-generation",
+      "retrieval-systems",
+      "search"
+    ],
+    "createdAt": "2024-02-12",
+    "updatedAt": "2026-05-06",
+    "source": "external_ref",
+    "categoryTag": "AI开发框架",
+    "displayCategory": "learn-reference",
+    "intelligenceLevel": 3,
+    "oneLiner": "AI 模型，用于实现 RAG 检索增强生成",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "提供模型微调服务，按项目收费",
+      "做托管 API，按调用量收费",
+      "做垂直行业的定制模型"
+    ],
+    "actionSuggestions": [
+      "下载模型用自己数据跑一遍，对比现有方案效果",
+      "评估微调成本（数据准备 + 算力 + 时间）",
+      "调研：这个模型在什么垂直场景里有独特优势？"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "📚 框架/库",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🟢 路径明确",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "🔌 API依赖风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 15,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": false,
+    "hasCi": false
+  },
+  {
+    "slug": "getomni-ai-benchmark",
+    "repoId": "getomni-ai/benchmark",
+    "owner": "getomni-ai",
+    "repo": "benchmark",
+    "url": "https://github.com/getomni-ai/benchmark",
+    "homepage": "https://getomni.ai/ocr-benchmark",
+    "description": "OCR Benchmark",
+    "stars": 632,
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [],
+    "createdAt": "2024-12-16",
+    "updatedAt": "2026-04-28",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者OCR Benchmark（英文原文）",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "出视频课程 / 写付费教程赚培训费",
+      "提供企业级技术支持订阅",
+      "基于该库做垂直领域的 SaaS 产品"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🟡 路径可见",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 7936,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "superglue-ai-superglue",
+    "repoId": "superglue-ai/superglue",
+    "owner": "superglue-ai",
+    "repo": "superglue",
+    "url": "https://github.com/superglue-ai/superglue",
+    "homepage": "https://superglue.ai",
+    "description": "superglue (YC W25) builds integrations and tools from natural language. Get production-grade tools for long tail and enterprise systems.",
+    "stars": 2009,
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "topics": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "api",
+      "api-gateway",
+      "api-orchestration",
+      "developer-tools",
+      "etl-automation",
+      "function-calling",
+      "integration",
+      "llm",
+      "mcp",
+      "oauth2",
+      "open-source",
+      "transformations"
+    ],
+    "createdAt": "2025-01-10",
+    "updatedAt": "2026-05-06",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者构建 AI Agent 智能体",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟡 轻二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟡 活跃成长",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 4538,
+    "hasDocker": false,
+    "hasDockerCompose": true,
+    "hasTests": false,
+    "hasCi": false
+  },
+  {
+    "slug": "onyx-dot-app-onyx",
+    "repoId": "onyx-dot-app/onyx",
+    "owner": "onyx-dot-app",
+    "repo": "onyx",
+    "url": "https://github.com/onyx-dot-app/onyx",
+    "homepage": "https://onyx.app",
+    "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+    "stars": 29098,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "topics": [
+      "ai",
+      "ai-chat",
+      "chatgpt",
+      "chatui",
+      "enterprise-search",
+      "gen-ai",
+      "information-retrieval",
+      "llm",
+      "llm-ui",
+      "nextjs",
+      "python",
+      "rag",
+      "self-hosted",
+      "vector-search"
+    ],
+    "createdAt": "2023-04-27",
+    "updatedAt": "2026-05-07",
+    "source": "external_ref",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 3,
+    "oneLiner": "Web 应用，让你实现 RAG 检索增强生成",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "部署为 SaaS 服务，按月/年订阅收费",
+      "提供托管版，收取运维服务费"
+    ],
+    "actionSuggestions": [
+      "部署试用，用真实场景验证核心功能",
+      "理解项目价值主张和差异化",
+      "找到一个垂直细分场景做定制落地"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟡 有空间",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 6039,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  },
+  {
+    "slug": "airweave-ai-airweave",
+    "repoId": "airweave-ai/airweave",
+    "owner": "airweave-ai",
+    "repo": "airweave",
+    "url": "https://github.com/airweave-ai/airweave",
+    "homepage": "https://airweave.ai",
+    "description": "Open-source context retrieval layer for AI agents",
+    "stars": 6296,
+    "language": "Python",
+    "license": "MIT",
+    "topics": [
+      "agent-infrastructure",
+      "ai",
+      "ai-agents",
+      "ai-infrastructure",
+      "api",
+      "context-retrieval",
+      "data-connectors",
+      "developer-tools",
+      "enterprise-data",
+      "information-retrieval",
+      "integration",
+      "llm",
+      "open-source",
+      "rag",
+      "retrieval",
+      "retrieval-augmented-generation",
+      "sdk",
+      "search",
+      "search-api",
+      "semantic-search"
+    ],
+    "createdAt": "2024-12-24",
+    "updatedAt": "2026-05-06",
+    "source": "external_ref",
+    "categoryTag": "AI开发框架",
+    "displayCategory": "learn-reference",
+    "intelligenceLevel": 3,
+    "oneLiner": "开发库/框架，帮开发者实现 RAG 检索增强生成",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "出视频课程 / 写付费教程赚培训费",
+      "提供企业级技术支持订阅",
+      "基于该库做垂直领域的 SaaS 产品"
+    ],
+    "actionSuggestions": [
+      "阅读核心模块源码（约 500 行），理解架构设计",
+      "找一个具体业务场景，写一个最小可行 demo",
+      "评估：开发效率提升多少？维护成本是否可控？"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "📚 框架/库",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🟢 路径明确",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 11514,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false
+  }
+]

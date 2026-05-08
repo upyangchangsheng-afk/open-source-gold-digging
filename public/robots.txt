@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://open-source-gold-digging.vercel.app/sitemap.xml
