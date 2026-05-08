@@ -7,12 +7,12 @@
     "url": "https://github.com/AlexPEClub/ai-coding-starter-kit",
     "homepage": "",
     "description": "Production-ready Next.js template with AI-powered development workflow using 6 specialized agents",
-    "stars": 268,
+    "stars": 274,
     "language": "TypeScript",
     "license": "",
     "topics": [],
     "createdAt": "2026-01-12",
-    "updatedAt": "2026-05-06",
+    "updatedAt": "2026-05-08",
     "source": "api_search",
     "categoryTag": "赚钱项目",
     "displayCategory": "can-earn",
@@ -40,7 +40,21 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": null,
+    "techStack": {
+      "主语言": "Python",
+      "框架": "Next.js",
+      "AI依赖": "Anthropic API",
+      "数据库": "Supabase",
+      "前端": "Next.js",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "chenjigang4167-testhub_platform",
@@ -50,12 +64,12 @@
     "url": "https://github.com/chenjigang4167/testhub_platform",
     "homepage": "",
     "description": "AI-Powered Testing Platform",
-    "stars": 479,
+    "stars": 486,
     "language": "Python",
     "license": "",
     "topics": [],
     "createdAt": "2026-01-04",
-    "updatedAt": "2026-05-07",
+    "updatedAt": "2026-05-08",
     "source": "api_search",
     "categoryTag": "AI工具/SaaS",
     "displayCategory": "can-earn",
@@ -82,7 +96,21 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": null,
+    "techStack": {
+      "主语言": "Python",
+      "框架": "Django",
+      "AI依赖": "OpenAI API",
+      "数据库": "MySQL",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "rockydant-ai-market",
@@ -92,12 +120,12 @@
     "url": "https://github.com/rockydant/ai-market",
     "homepage": "",
     "description": "",
-    "stars": 348,
+    "stars": 349,
     "language": "Python",
     "license": "",
     "topics": [],
     "createdAt": "2025-11-28",
-    "updatedAt": "2026-05-03",
+    "updatedAt": "2026-05-07",
     "source": "api_search",
     "categoryTag": "AI工具/SaaS",
     "displayCategory": "can-earn",
@@ -123,7 +151,21 @@
     "hasDocker": true,
     "hasDockerCompose": true,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": null,
+    "techStack": {
+      "主语言": "Python",
+      "框架": "FastAPI",
+      "AI依赖": "HuggingFace",
+      "数据库": "PostgreSQL",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "adminlove520-AI-Account-Toolkit",
@@ -180,7 +222,13 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": false,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "bestpracticaI-kalshi-ai-trading-bot",
@@ -190,7 +238,7 @@
     "url": "https://github.com/bestpracticaI/kalshi-ai-trading-bot",
     "homepage": "https://github.com/bestpracticaI/kalshi-ai-trading-bot",
     "description": "Kalshi prediction markets trading bot algorithmic automated trading TypeScript Node.js Kalshi REST API RSA signing OpenRouter LLM CLI npm quant fintech event contracts market making exchange API bot Kalshi SDK",
-    "stars": 221,
+    "stars": 214,
     "language": "TypeScript",
     "license": "MIT",
     "topics": [
@@ -216,7 +264,7 @@
       "typescript"
     ],
     "createdAt": "2026-05-04",
-    "updatedAt": "2026-05-07",
+    "updatedAt": "2026-05-08",
     "source": "api_search",
     "categoryTag": "垂直AI应用",
     "displayCategory": "need-modify",
@@ -247,7 +295,40 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是一个命令行工具，你不需要打开浏览器，在终端里敲几行命令就能Kalshi prediction markets trading bot。适合经常用命令行的开发者，用完就走，不占资源。",
+      "能解决什么": "比如你经常需要批量处理文件、转换格式、或者跑脚本，以前要打开各种软件手动操作，现在终端敲一行命令就搞定。。比如你要把一批图片转成 WebP 格式，以前要打开 PS 一张张导出，现在一条命令全部自动处理完。",
+      "怎么跑起来": [
+        "确保安装了 Node.js 18+",
+        "git clone 项目代码 && cd 项目目录",
+        "npm install",
+        "npm run dev 或 npm start"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "TypeScript"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① pip/npm install 安装（2分钟）→ ② 按 README 示例跑几个命令（10分钟）→ ③ 思考：我的日常工作中有哪些场景可以用它提效？"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "OpenAI API",
+      "数据库": "Redis",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "6551-Team-ai-auto-trading",
@@ -301,7 +382,21 @@
     "hasDocker": true,
     "hasDockerCompose": true,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": null,
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "OpenAI API",
+      "数据库": "SQLite",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "LearnPrompt-ai-news-radar",
@@ -311,12 +406,12 @@
     "url": "https://github.com/LearnPrompt/ai-news-radar",
     "homepage": "https://learnprompt.github.io/ai-news-radar/",
     "description": "AI/tech news radar with GitHub Actions updates and a live web UI",
-    "stars": 299,
+    "stars": 309,
     "language": "Python",
     "license": "",
     "topics": [],
     "createdAt": "2026-02-21",
-    "updatedAt": "2026-05-07",
+    "updatedAt": "2026-05-08",
     "source": "api_search",
     "categoryTag": "AI工具/SaaS",
     "displayCategory": "can-earn",
@@ -343,7 +438,21 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": true
+    "hasCi": true,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": null,
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "liangdabiao-perler-beads-ai",
@@ -353,14 +462,14 @@
     "url": "https://github.com/liangdabiao/perler-beads-ai",
     "homepage": "https://pindou.348349.xyz/",
     "description": "因为市面上的拼豆软件差强人意 ，所以我基于开源项目：Zippland/perler-beads ，带小程序（perlerBeadsApplet） 我加上AI优化了项目，AI辅助优化图片功能，写了一个专门生成拼豆图纸的网站。 经过大量测试，我觉得已经可以达到 一键生成拼豆图纸了！我还有乐高积木拼豆： github.com/liangdabiao/brickMosaic",
-    "stars": 100,
+    "stars": 105,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "topics": [
       "ai"
     ],
     "createdAt": "2026-02-26",
-    "updatedAt": "2026-05-06",
+    "updatedAt": "2026-05-08",
     "source": "api_search",
     "categoryTag": "AI工具/SaaS",
     "displayCategory": "can-earn",
@@ -391,7 +500,40 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": false,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是一个带界面的网站/平台，你打开浏览器就能用。上传或输入数据，系统会自动帮你因为市面上的拼豆软件差强人意 ，所以我基于开源项目：Zippland/perle。适合不想折腾代码、想要直观操作的用户。",
+      "能解决什么": "比如你想用 AI 生成图片但不会编程，打开这个网站，输入文字描述就能出图，和聊天一样简单。。比如团队想共享一个 AI 工具，不需要每人装一套环境，打开浏览器就能一起用。",
+      "怎么跑起来": [
+        "确保安装了 Node.js 18+",
+        "git clone 项目代码 && cd 项目目录",
+        "npm install",
+        "npm run dev 或 npm start"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "TypeScript"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 打开项目官网/demo 链接体验（5分钟）→ ② 如果满意，git clone 部署到本地（15分钟）→ ③ 用自己的数据测试是否满足需求（30分钟）。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "Next.js",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "Next.js",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "aibuildai-AI-Build-AI",
@@ -401,12 +543,12 @@
     "url": "https://github.com/aibuildai/AI-Build-AI",
     "homepage": "",
     "description": "AIBuildAI – An AI agent that automatically builds AI models (#1 on OpenAI MLE-Bench)",
-    "stars": 264,
+    "stars": 266,
     "language": "Python",
     "license": "MIT",
     "topics": [],
     "createdAt": "2026-03-15",
-    "updatedAt": "2026-05-05",
+    "updatedAt": "2026-05-08",
     "source": "api_search",
     "categoryTag": "AI模型/权重",
     "displayCategory": "learn-reference",
@@ -434,7 +576,21 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": null,
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "hulutech-web-novel-video-workflow",
@@ -444,7 +600,7 @@
     "url": "https://github.com/hulutech-web/novel-video-workflow",
     "homepage": "https://yadou.net",
     "description": "完全本地的AI小说视频生成工作流，每个人都能成为导演！",
-    "stars": 272,
+    "stars": 274,
     "language": "Go",
     "license": "",
     "topics": [
@@ -452,7 +608,7 @@
       "novels"
     ],
     "createdAt": "2026-01-10",
-    "updatedAt": "2026-05-06",
+    "updatedAt": "2026-05-08",
     "source": "api_search",
     "categoryTag": "AI插件/扩展",
     "displayCategory": "need-modify",
@@ -478,7 +634,21 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": false,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": null,
+    "techStack": {
+      "主语言": "Python",
+      "框架": "Gin",
+      "AI依赖": "",
+      "数据库": "SQLite",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "burpheart-cursor-tap",
@@ -522,7 +692,21 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": false,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": null,
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "endless-sky-team-ai-trading-agent",
@@ -584,7 +768,13 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": false,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "codexu-note-gen",
@@ -594,7 +784,7 @@
     "url": "https://github.com/codexu/note-gen",
     "homepage": "https://notegen.top",
     "description": "A cross-platform Markdown AI note-taking software.",
-    "stars": 11774,
+    "stars": 11789,
     "language": "TypeScript",
     "license": "GPL-3.0",
     "topics": [
@@ -611,7 +801,7 @@
       "webdav"
     ],
     "createdAt": "2024-08-06",
-    "updatedAt": "2026-05-07",
+    "updatedAt": "2026-05-08",
     "source": "api_search",
     "categoryTag": "AI工具/SaaS",
     "displayCategory": "can-earn",
@@ -642,7 +832,40 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是一个带界面的网站/平台，你打开浏览器就能用。上传或输入数据，系统会自动帮你A cross-platform Markdown AI note-taking。适合不想折腾代码、想要直观操作的用户。",
+      "能解决什么": "比如你想用 AI 生成图片但不会编程，打开这个网站，输入文字描述就能出图，和聊天一样简单。。比如团队想共享一个 AI 工具，不需要每人装一套环境，打开浏览器就能一起用。",
+      "怎么跑起来": [
+        "确保安装了 Node.js 18+",
+        "git clone 项目代码 && cd 项目目录",
+        "npm install",
+        "npm run dev 或 npm start"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "TypeScript"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 打开项目官网/demo 链接体验（5分钟）→ ② 如果满意，git clone 部署到本地（15分钟）→ ③ 用自己的数据测试是否满足需求（30分钟）。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "Next.js",
+      "AI依赖": "OpenAI API",
+      "数据库": "",
+      "前端": "Next.js",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "kdsz001-OpenWiki",
@@ -698,7 +921,13 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "zeroclaw-labs-zeroclaw",
@@ -708,7 +937,7 @@
     "url": "https://github.com/zeroclaw-labs/zeroclaw",
     "homepage": "https://www.zeroclawlabs.ai/",
     "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀",
-    "stars": 31091,
+    "stars": 31126,
     "language": "Rust",
     "license": "Apache-2.0",
     "topics": [
@@ -722,7 +951,7 @@
       "zeroclaw"
     ],
     "createdAt": "2026-02-13",
-    "updatedAt": "2026-05-07",
+    "updatedAt": "2026-05-08",
     "source": "api_search",
     "categoryTag": "AI工具/SaaS",
     "displayCategory": "can-earn",
@@ -754,7 +983,40 @@
     "hasDocker": true,
     "hasDockerCompose": true,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是一个带界面的网站/平台，你打开浏览器就能用。上传或输入数据，系统会自动帮你Fast, small, and fully autonomous。适合不想折腾代码、想要直观操作的用户。",
+      "能解决什么": "比如你想用 AI 生成图片但不会编程，打开这个网站，输入文字描述就能出图，和聊天一样简单。。比如团队想共享一个 AI 工具，不需要每人装一套环境，打开浏览器就能一起用。",
+      "怎么跑起来": [
+        "确保安装了 Rust 工具链",
+        "git clone 项目代码 && cd 项目目录",
+        "cargo build --release",
+        "./target/release/项目名 启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "30-60 分钟（需编译）",
+        "前置要求": [
+          "Rust"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 打开项目官网/demo 链接体验（5分钟）→ ② 如果满意，git clone 部署到本地（15分钟）→ ③ 用自己的数据测试是否满足需求（30分钟）。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "React",
+      "AI依赖": "OpenAI API",
+      "数据库": "SQLite",
+      "前端": "React",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "elie222-inbox-zero",
@@ -818,7 +1080,13 @@
     "hasDocker": false,
     "hasDockerCompose": true,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "CodePhiliaX-youclaw",
@@ -870,7 +1138,13 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "markfulton-NanoBananaEditor",
@@ -928,7 +1202,13 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "vargHQ-sdk",
@@ -995,7 +1275,13 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "exo-explore-exo",
@@ -1042,7 +1328,13 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "ANOOBALSA-FitGirl-Repacks-Manager",
@@ -1085,7 +1377,13 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "sandhani01-Hand-writing-generator",
@@ -1126,7 +1424,13 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "JeevansSP-resume-optimizer",
@@ -1185,7 +1489,13 @@
     "hasDocker": true,
     "hasDockerCompose": true,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "caliber-ai-org-ai-setup",
@@ -1247,7 +1557,13 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "naveenraj-17-synapse-ai",
@@ -1303,7 +1619,13 @@
     "hasDocker": false,
     "hasDockerCompose": true,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "lightningpixel-modly",
@@ -1356,7 +1678,13 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "diegosouzapw-OmniRoute",
@@ -1408,7 +1736,13 @@
     "hasDocker": true,
     "hasDockerCompose": true,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-07",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": null,
+    "useCases": []
   },
   {
     "slug": "virattt-ai-hedge-fund",
@@ -1418,12 +1752,12 @@
     "url": "https://github.com/virattt/ai-hedge-fund",
     "homepage": "",
     "description": "An AI Hedge Fund Team",
-    "stars": 58225,
+    "stars": 58324,
     "language": "Python",
     "license": "",
     "topics": [],
     "createdAt": "2024-11-29",
-    "updatedAt": "2026-05-07",
+    "updatedAt": "2026-05-08",
     "source": "external_ref",
     "categoryTag": "AI工具/SaaS",
     "displayCategory": "can-earn",
@@ -1453,7 +1787,40 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的An AI Hedge Fund Team功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "khoj-ai-khoj",
@@ -1463,7 +1830,7 @@
     "url": "https://github.com/khoj-ai/khoj",
     "homepage": "https://khoj.dev",
     "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
-    "stars": 34416,
+    "stars": 34434,
     "language": "Python",
     "license": "AGPL-3.0",
     "topics": [
@@ -1489,8 +1856,8 @@
       "whatsapp-ai"
     ],
     "createdAt": "2021-08-16",
-    "updatedAt": "2026-05-07",
-    "source": "external_ref",
+    "updatedAt": "2026-05-08",
+    "source": "api_search",
     "categoryTag": "AI工具/SaaS",
     "displayCategory": "can-earn",
     "intelligenceLevel": 3,
@@ -1520,7 +1887,40 @@
     "hasDocker": true,
     "hasDockerCompose": true,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是一个带界面的网站/平台，你打开浏览器就能用。上传或输入数据，系统会自动帮你Your AI second brain. Self-hostable.。适合不想折腾代码、想要直观操作的用户。",
+      "能解决什么": "比如你想用 AI 生成图片但不会编程，打开这个网站，输入文字描述就能出图，和聊天一样简单。。比如团队想共享一个 AI 工具，不需要每人装一套环境，打开浏览器就能一起用。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 打开项目官网/demo 链接体验（5分钟）→ ② 如果满意，git clone 部署到本地（15分钟）→ ③ 用自己的数据测试是否满足需求（30分钟）。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "Django",
+      "AI依赖": "OpenAI API",
+      "数据库": "PostgreSQL",
+      "前端": "Next.js",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "circlemind-ai-fast-graphrag",
@@ -1566,7 +1966,40 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的RAG that intelligently adapts to功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "mastra-ai-mastra",
@@ -1576,7 +2009,7 @@
     "url": "https://github.com/mastra-ai/mastra",
     "homepage": "https://mastra.ai",
     "description": "From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack.",
-    "stars": 23623,
+    "stars": 23673,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "topics": [
@@ -1595,7 +2028,7 @@
       "workflows"
     ],
     "createdAt": "2024-08-06",
-    "updatedAt": "2026-05-07",
+    "updatedAt": "2026-05-08",
     "source": "external_ref",
     "categoryTag": "AI工具/SaaS",
     "displayCategory": "can-earn",
@@ -1625,7 +2058,40 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的From the team behind Gatsby,功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Node.js 18+",
+        "git clone 项目代码 && cd 项目目录",
+        "npm install",
+        "npm run dev 或 npm start"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "TypeScript"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "React",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "React",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "Skyvern-AI-skyvern",
@@ -1635,7 +2101,7 @@
     "url": "https://github.com/Skyvern-AI/skyvern",
     "homepage": "https://www.skyvern.com",
     "description": "Automate browser based workflows with AI",
-    "stars": 21518,
+    "stars": 21531,
     "language": "Python",
     "license": "AGPL-3.0",
     "topics": [
@@ -1657,7 +2123,7 @@
       "workflow"
     ],
     "createdAt": "2024-02-28",
-    "updatedAt": "2026-05-07",
+    "updatedAt": "2026-05-08",
     "source": "external_ref",
     "categoryTag": "AI插件/扩展",
     "displayCategory": "need-modify",
@@ -1687,7 +2153,40 @@
     "hasDocker": true,
     "hasDockerCompose": true,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的Automate browser based workflows with功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "OpenAI API",
+      "数据库": "PostgreSQL",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "invoke-ai-InvokeAI",
@@ -1697,7 +2196,7 @@
     "url": "https://github.com/invoke-ai/InvokeAI",
     "homepage": "https://invoke-ai.github.io/InvokeAI/",
     "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
-    "stars": 27116,
+    "stars": 27133,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "topics": [
@@ -1716,7 +2215,7 @@
       "windows"
     ],
     "createdAt": "2022-08-17",
-    "updatedAt": "2026-05-07",
+    "updatedAt": "2026-05-08",
     "source": "external_ref",
     "categoryTag": "AI模型/权重",
     "displayCategory": "learn-reference",
@@ -1748,7 +2247,40 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是一个训练好的 AI 模型。你下载下来加载就能让它帮你Invoke is a leading creative，不用自己训练。需要一些 AI 基础知识，但比从头训练简单得多。",
+      "能解决什么": "比如你想做一个产品自动生成商品描述，下载这个模型微调一下就能用，不用从零训练。。比如你要做图片识别但训练数据不够，拿这个预训练模型在你的数据上微调，成功率能提高不少。",
+      "怎么跑起来": [
+        "确保安装了 Node.js 18+",
+        "git clone 项目代码 && cd 项目目录",
+        "npm install",
+        "npm run dev 或 npm start"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "TypeScript"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 查看模型卡了解输入输出格式（10分钟）→ ② 下载模型用示例数据跑一次推理（30分钟）→ ③ 对比现有方案：效果更好吗？成本更低吗？"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "omnara-ai-omnara",
@@ -1758,12 +2290,12 @@
     "url": "https://github.com/omnara-ai/omnara",
     "homepage": "https://omnara.com",
     "description": "Omnara (YC S25) - Talk to Your AI Agents from Anywhere!",
-    "stars": 2629,
+    "stars": 2630,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "topics": [],
     "createdAt": "2025-07-09",
-    "updatedAt": "2026-05-05",
+    "updatedAt": "2026-05-07",
     "source": "external_ref",
     "categoryTag": "AI工具/SaaS",
     "displayCategory": "can-earn",
@@ -1794,7 +2326,40 @@
     "hasDocker": false,
     "hasDockerCompose": true,
     "hasTests": true,
-    "hasCi": true
+    "hasCi": true,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的Omnara (YC S25) - Talk功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Node.js 18+",
+        "git clone 项目代码 && cd 项目目录",
+        "npm install",
+        "npm run dev 或 npm start"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "TypeScript"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "PostgreSQL",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "plandex-ai-plandex",
@@ -1804,7 +2369,7 @@
     "url": "https://github.com/plandex-ai/plandex",
     "homepage": "https://plandex.ai",
     "description": "Open source AI coding agent. Designed for large projects and real world tasks.",
-    "stars": 15333,
+    "stars": 15338,
     "language": "Go",
     "license": "MIT",
     "topics": [
@@ -1826,7 +2391,7 @@
       "terminal-ui"
     ],
     "createdAt": "2023-10-24",
-    "updatedAt": "2026-05-06",
+    "updatedAt": "2026-05-08",
     "source": "external_ref",
     "categoryTag": "AI工具/SaaS",
     "displayCategory": "can-earn",
@@ -1858,7 +2423,40 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是一个命令行工具，你不需要打开浏览器，在终端里敲几行命令就能Open source AI coding agent.。适合经常用命令行的开发者，用完就走，不占资源。",
+      "能解决什么": "比如你经常需要批量处理文件、转换格式、或者跑脚本，以前要打开各种软件手动操作，现在终端敲一行命令就搞定。。比如你要把一批图片转成 WebP 格式，以前要打开 PS 一张张导出，现在一条命令全部自动处理完。",
+      "怎么跑起来": [
+        "确保安装了 Go 1.21+",
+        "git clone 项目代码 && cd 项目目录",
+        "go mod download && go build",
+        "./项目名 启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "30-60 分钟（需编译）",
+        "前置要求": [
+          "Go"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① pip/npm install 安装（2分钟）→ ② 按 README 示例跑几个命令（10分钟）→ ③ 思考：我的日常工作中有哪些场景可以用它提效？"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "abus-aikorea-voice-pro",
@@ -1868,7 +2466,7 @@
     "url": "https://github.com/abus-aikorea/voice-pro",
     "homepage": "https://www.wctokyoseoul.com",
     "description": "Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation.",
-    "stars": 9138,
+    "stars": 9267,
     "language": "Python",
     "license": "GPL-3.0",
     "topics": [
@@ -1893,7 +2491,7 @@
       "yt-dlp"
     ],
     "createdAt": "2024-07-29",
-    "updatedAt": "2026-05-07",
+    "updatedAt": "2026-05-08",
     "source": "external_ref",
     "categoryTag": "AI工具/SaaS",
     "displayCategory": "can-earn",
@@ -1924,7 +2522,40 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是一个带界面的网站/平台，你打开浏览器就能用。上传或输入数据，系统会自动帮你Gradio WebUI for creators and。适合不想折腾代码、想要直观操作的用户。",
+      "能解决什么": "比如你想用 AI 生成图片但不会编程，打开这个网站，输入文字描述就能出图，和聊天一样简单。。比如团队想共享一个 AI 工具，不需要每人装一套环境，打开浏览器就能一起用。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 打开项目官网/demo 链接体验（5分钟）→ ② 如果满意，git clone 部署到本地（15分钟）→ ③ 用自己的数据测试是否满足需求（30分钟）。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "SciPhi-AI-R2R",
@@ -1934,7 +2565,7 @@
     "url": "https://github.com/SciPhi-AI/R2R",
     "homepage": "",
     "description": "SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.",
-    "stars": 7804,
+    "stars": 7810,
     "language": "Python",
     "license": "MIT",
     "topics": [
@@ -1948,7 +2579,7 @@
       "search"
     ],
     "createdAt": "2024-02-12",
-    "updatedAt": "2026-05-06",
+    "updatedAt": "2026-05-08",
     "source": "external_ref",
     "categoryTag": "AI开发框架",
     "displayCategory": "learn-reference",
@@ -1980,7 +2611,40 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": false,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是一个训练好的 AI 模型。你下载下来加载就能让它帮你SoTA production-ready AI retrieval syste，不用自己训练。需要一些 AI 基础知识，但比从头训练简单得多。",
+      "能解决什么": "比如你想做一个产品自动生成商品描述，下载这个模型微调一下就能用，不用从零训练。。比如你要做图片识别但训练数据不够，拿这个预训练模型在你的数据上微调，成功率能提高不少。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 查看模型卡了解输入输出格式（10分钟）→ ② 下载模型用示例数据跑一次推理（30分钟）→ ③ 对比现有方案：效果更好吗？成本更低吗？"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "getomni-ai-benchmark",
@@ -2026,7 +2690,40 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的OCR Benchmark功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Node.js 18+",
+        "git clone 项目代码 && cd 项目目录",
+        "npm install",
+        "npm run dev 或 npm start"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "TypeScript"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "OpenAI API",
+      "数据库": "PostgreSQL",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "superglue-ai-superglue",
@@ -2036,7 +2733,7 @@
     "url": "https://github.com/superglue-ai/superglue",
     "homepage": "https://superglue.ai",
     "description": "superglue (YC W25) builds integrations and tools from natural language. Get production-grade tools for long tail and enterprise systems.",
-    "stars": 2009,
+    "stars": 2010,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "topics": [
@@ -2057,7 +2754,7 @@
       "transformations"
     ],
     "createdAt": "2025-01-10",
-    "updatedAt": "2026-05-06",
+    "updatedAt": "2026-05-08",
     "source": "external_ref",
     "categoryTag": "AI工具/SaaS",
     "displayCategory": "can-earn",
@@ -2086,7 +2783,40 @@
     "hasDocker": false,
     "hasDockerCompose": true,
     "hasTests": false,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的superglue (YC W25) builds integrations功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Node.js 18+",
+        "git clone 项目代码 && cd 项目目录",
+        "npm install",
+        "npm run dev 或 npm start"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "TypeScript"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "PostgreSQL",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "onyx-dot-app-onyx",
@@ -2096,7 +2826,7 @@
     "url": "https://github.com/onyx-dot-app/onyx",
     "homepage": "https://onyx.app",
     "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
-    "stars": 29098,
+    "stars": 29168,
     "language": "Python",
     "license": "NOASSERTION",
     "topics": [
@@ -2116,7 +2846,7 @@
       "vector-search"
     ],
     "createdAt": "2023-04-27",
-    "updatedAt": "2026-05-07",
+    "updatedAt": "2026-05-08",
     "source": "external_ref",
     "categoryTag": "AI工具/SaaS",
     "displayCategory": "can-earn",
@@ -2147,7 +2877,40 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是一个带界面的网站/平台，你打开浏览器就能用。上传或输入数据，系统会自动帮你Open Source AI Platform -。适合不想折腾代码、想要直观操作的用户。",
+      "能解决什么": "比如你想用 AI 生成图片但不会编程，打开这个网站，输入文字描述就能出图，和聊天一样简单。。比如团队想共享一个 AI 工具，不需要每人装一套环境，打开浏览器就能一起用。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 打开项目官网/demo 链接体验（5分钟）→ ② 如果满意，git clone 部署到本地（15分钟）→ ③ 用自己的数据测试是否满足需求（30分钟）。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   },
   {
     "slug": "airweave-ai-airweave",
@@ -2157,7 +2920,7 @@
     "url": "https://github.com/airweave-ai/airweave",
     "homepage": "https://airweave.ai",
     "description": "Open-source context retrieval layer for AI agents",
-    "stars": 6296,
+    "stars": 6303,
     "language": "Python",
     "license": "MIT",
     "topics": [
@@ -2183,7 +2946,7 @@
       "semantic-search"
     ],
     "createdAt": "2024-12-24",
-    "updatedAt": "2026-05-06",
+    "updatedAt": "2026-05-08",
     "source": "external_ref",
     "categoryTag": "AI开发框架",
     "displayCategory": "learn-reference",
@@ -2215,6 +2978,1601 @@
     "hasDocker": false,
     "hasDockerCompose": false,
     "hasTests": true,
-    "hasCi": false
+    "hasCi": false,
+    "firstSeen": "2026-05-07",
+    "lastSeen": "2026-05-09",
+    "seenCount": 7,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的Open-source context retrieval layer for功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "nooncheetahstart-Kahoot-tools-AI",
+    "repoId": "nooncheetahstart/Kahoot-tools-AI",
+    "owner": "nooncheetahstart",
+    "repo": "Kahoot-tools-AI",
+    "url": "https://github.com/nooncheetahstart/Kahoot-tools-AI",
+    "homepage": "",
+    "description": "Kahoot || Kahoot helper || Kahoot tools || Kahoot ai",
+    "stars": 81,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "source": "api_trending",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "开发库/框架，帮开发者Kahoot || Kahoot helper || Kahoot tools || Kahoot ai（英文原文）",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🔴 做不了",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🔴 濒临废弃",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "👤 维护者风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 12723,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-08",
+    "lastSeen": "2026-05-09",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "Tremorfitzapplaud-1tamilmv-telegram-bot",
+    "repoId": "Tremorfitzapplaud/1tamilmv-telegram-bot",
+    "owner": "Tremorfitzapplaud",
+    "repo": "1tamilmv-telegram-bot",
+    "url": "https://github.com/Tremorfitzapplaud/1tamilmv-telegram-bot",
+    "homepage": "",
+    "description": "1tamilmv || 1tamilmv telegram || 1tamilmv bot || WD_1tamilmv_v2_bot",
+    "stars": 79,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "source": "api_trending",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "开发库/框架，帮开发者1tamilmv || 1tamilmv telegram || 1tamilmv bot || WD_1tamilmv_v2_bot（英文原文）",
+    "corePainPoint": "problem",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🔴 做不了",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🔴 濒临废弃",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "👤 维护者风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 11850,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": true,
+    "firstSeen": "2026-05-08",
+    "lastSeen": "2026-05-09",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": {
+      "主语言": "Python",
+      "框架": "FastAPI",
+      "AI依赖": "",
+      "数据库": "Redis",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "Kimberlyarichrdqnat51296-TRX-Drainer-Tool",
+    "repoId": "Kimberlyarichrdqnat51296/TRX-Drainer-Tool",
+    "owner": "Kimberlyarichrdqnat51296",
+    "repo": "TRX-Drainer-Tool",
+    "url": "https://github.com/Kimberlyarichrdqnat51296/TRX-Drainer-Tool",
+    "homepage": "",
+    "description": "TRX Drainer Tool — Automated TRX and TRC20 token drainer for TRON wallets with real-time balance monitoring, multi-wallet sweeping, TronLink/Trust Wallet compatibility, and stealth energy-optimized transaction routing",
+    "stars": 37,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "source": "api_trending",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "开发库/框架，帮开发者自动化d TRX and TRC20 token drainer for TRON wallets with real-time balance monitoring",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🔴 做不了",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🔴 濒临废弃",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "👤 维护者风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 8339,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-08",
+    "lastSeen": "2026-05-09",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "duguying-100M",
+    "repoId": "duguying/100M",
+    "owner": "duguying",
+    "repo": "100M",
+    "url": "https://github.com/duguying/100M",
+    "homepage": "",
+    "description": "training your 0.1B llm from zero",
+    "stars": 35,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "source": "api_trending",
+    "categoryTag": "AI模型/权重",
+    "displayCategory": "learn-reference",
+    "intelligenceLevel": 1,
+    "oneLiner": "AI 模型，用于training your 0.1B llm from zero（英文原文）",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "学习模型架构和训练方法",
+      "参考其思路训练自己的模型"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🔴 做不了",
+      "产出结果": "🛠 独立工具",
+      "持续性": "🔴 濒临废弃",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "👤 维护者风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 6546,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-08",
+    "lastSeen": "2026-05-09",
+    "seenCount": 2,
+    "deepDive": null,
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "berylliumsec-nebula",
+    "repoId": "berylliumsec/nebula",
+    "owner": "berylliumsec",
+    "repo": "nebula",
+    "url": "https://github.com/berylliumsec/nebula",
+    "homepage": "https://www.berylliumsec.com",
+    "description": "AI-powered penetration testing assistant for automating recon, note-taking, and vulnerability analysis.",
+    "stars": 952,
+    "language": "Python",
+    "license": "BSD-2-Clause",
+    "topics": [
+      "ai",
+      "ai-powered-ethical-hacking-tool",
+      "ai-powered-penetration-testing-tool",
+      "cybersecurity",
+      "cybersecurity-tools",
+      "ethical-hacking",
+      "ethical-hacking-tool",
+      "llm",
+      "penetration-testing-framework",
+      "penetration-testing-tool",
+      "python",
+      "security-automation",
+      "vulnerability-assesment-tools",
+      "vulnerability-assessment",
+      "vulnerability-scanners"
+    ],
+    "createdAt": "2023-09-30",
+    "updatedAt": "2026-05-06",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "开发库/框架，帮开发者集成大语言模型",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 4562,
+    "hasDocker": true,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-08",
+    "lastSeen": "2026-05-09",
+    "seenCount": 5,
+    "deepDive": null,
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "PostgreSQL",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "blueberrycongee-Lumina-Note",
+    "repoId": "blueberrycongee/Lumina-Note",
+    "owner": "blueberrycongee",
+    "repo": "Lumina-Note",
+    "url": "https://github.com/blueberrycongee/Lumina-Note",
+    "homepage": "",
+    "description": "Lumina Note - A modern Markdown note-taking app with live preview, bidirectional links, and AI assistant",
+    "stars": 857,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "codemirror",
+      "desktop-app",
+      "electron",
+      "knowledge-graph",
+      "llm",
+      "local-first",
+      "markdown",
+      "note-taking",
+      "obsidian-alternative",
+      "own-your-data",
+      "pdf-reader",
+      "react",
+      "second-brain",
+      "semantic-search",
+      "typescript",
+      "wikilinks"
+    ],
+    "createdAt": "2025-11-28",
+    "updatedAt": "2026-05-08",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "Web 应用，让你构建 AI Agent 智能体",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "部署为 SaaS 服务，按月/年订阅收费",
+      "做白标版本，卖给企业客户",
+      "提供托管版，收取运维服务费"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🟡 路径可见",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 6905,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-08",
+    "lastSeen": "2026-05-09",
+    "seenCount": 5,
+    "deepDive": {
+      "大白话": "这是一个带界面的网站/平台，你打开浏览器就能用。上传或输入数据，系统会自动帮你Lumina Note - A modern。适合不想折腾代码、想要直观操作的用户。",
+      "能解决什么": "比如你想用 AI 生成图片但不会编程，打开这个网站，输入文字描述就能出图，和聊天一样简单。。比如团队想共享一个 AI 工具，不需要每人装一套环境，打开浏览器就能一起用。",
+      "怎么跑起来": [
+        "确保安装了 Node.js 18+",
+        "git clone 项目代码 && cd 项目目录",
+        "npm install",
+        "npm run dev 或 npm start"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "TypeScript"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 打开项目官网/demo 链接体验（5分钟）→ ② 如果满意，git clone 部署到本地（15分钟）→ ③ 用自己的数据测试是否满足需求（30分钟）。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "React",
+      "AI依赖": "OpenAI API",
+      "数据库": "",
+      "前端": "React",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "PleasePrompto-notebooklm-mcp",
+    "repoId": "PleasePrompto/notebooklm-mcp",
+    "owner": "PleasePrompto",
+    "repo": "notebooklm-mcp",
+    "url": "https://github.com/PleasePrompto/notebooklm-mcp",
+    "homepage": "",
+    "description": "MCP server for NotebookLM - Let your AI agents (Claude Code, Codex) research documentation directly with grounded, citation-backed answers from Gemini. Persistent auth, library management, cross-client sharing. Zero hallucinations, just your knowledge base.",
+    "stars": 2321,
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [],
+    "createdAt": "2025-10-16",
+    "updatedAt": "2026-05-08",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "命令行工具，帮你管理ment, cross-client sharing. Zero hallucinations, just your knowledge base.",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "做成可视化桌面版或 Web 版，降低使用门槛",
+      "开发 IDE 插件集成，扩大用户群",
+      "面向企业提供定制版 + 技术支持"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟡 轻二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟡 活跃成长",
+      "盈利路径": "🟢 路径明确",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 14840,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-08",
+    "lastSeen": "2026-05-09",
+    "seenCount": 5,
+    "deepDive": {
+      "大白话": "这是一个命令行工具，你不需要打开浏览器，在终端里敲几行命令就能MCP server for NotebookLM -。适合经常用命令行的开发者，用完就走，不占资源。",
+      "能解决什么": "比如你经常需要批量处理文件、转换格式、或者跑脚本，以前要打开各种软件手动操作，现在终端敲一行命令就搞定。。比如你要把一批图片转成 WebP 格式，以前要打开 PS 一张张导出，现在一条命令全部自动处理完。",
+      "怎么跑起来": [
+        "确保安装了 Node.js 18+",
+        "git clone 项目代码 && cd 项目目录",
+        "npm install",
+        "npm run dev 或 npm start"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "TypeScript"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① pip/npm install 安装（2分钟）→ ② 按 README 示例跑几个命令（10分钟）→ ③ 思考：我的日常工作中有哪些场景可以用它提效？"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "Anthropic API",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "GongRzhe-Office-Word-MCP-Server",
+    "repoId": "GongRzhe/Office-Word-MCP-Server",
+    "owner": "GongRzhe",
+    "repo": "Office-Word-MCP-Server",
+    "url": "https://github.com/GongRzhe/Office-Word-MCP-Server",
+    "homepage": "",
+    "description": "A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interface, providing rich document editing capabilities.",
+    "stars": 1935,
+    "language": "Python",
+    "license": "MIT",
+    "topics": [],
+    "createdAt": "2025-03-25",
+    "updatedAt": "2026-05-08",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "AI 模型，用于A Model Context Protocol (MCP) server for creating, reading, and manipulating Mi（英文原文）",
+    "corePainPoint": "problem、before",
+    "monetizationPaths": [
+      "提供模型微调服务，按项目收费",
+      "做托管 API，按调用量收费",
+      "做垂直行业的定制模型"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟡 轻二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟡 活跃成长",
+      "盈利路径": "🟢 路径明确",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 14496,
+    "hasDocker": true,
+    "hasDockerCompose": false,
+    "hasTests": false,
+    "hasCi": false,
+    "firstSeen": "2026-05-08",
+    "lastSeen": "2026-05-09",
+    "seenCount": 5,
+    "deepDive": {
+      "大白话": "这是一个训练好的 AI 模型。你下载下来加载就能让它帮你A Model Context Protocol (MCP)，不用自己训练。需要一些 AI 基础知识，但比从头训练简单得多。",
+      "能解决什么": "比如你想做一个产品自动生成商品描述，下载这个模型微调一下就能用，不用从零训练。。比如你要做图片识别但训练数据不够，拿这个预训练模型在你的数据上微调，成功率能提高不少。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 查看模型卡了解输入输出格式（10分钟）→ ② 下载模型用示例数据跑一次推理（30分钟）→ ③ 对比现有方案：效果更好吗？成本更低吗？"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "nwiizo-tfmcp",
+    "repoId": "nwiizo/tfmcp",
+    "owner": "nwiizo",
+    "repo": "tfmcp",
+    "url": "https://github.com/nwiizo/tfmcp",
+    "homepage": "https://crates.io/crates/tfmcp",
+    "description": "🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments. Supports reading Terraform configurations, analyzing plans, applying configurations, and managing state with Claude Desktop integration. ⚡️",
+    "stars": 363,
+    "language": "Rust",
+    "license": "MIT",
+    "topics": [
+      "mcp",
+      "mcp-server",
+      "terraform"
+    ],
+    "createdAt": "2025-03-08",
+    "updatedAt": "2026-05-03",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "命令行工具，帮你管理and operate Terraform environments. Supports reading Terraform configurations,",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "做成可视化桌面版或 Web 版，降低使用门槛",
+      "开发 IDE 插件集成，扩大用户群",
+      "面向企业提供定制版 + 技术支持"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🟡 路径可见",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 15817,
+    "hasDocker": true,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-08",
+    "lastSeen": "2026-05-09",
+    "seenCount": 5,
+    "deepDive": {
+      "大白话": "这是一个命令行工具，你不需要打开浏览器，在终端里敲几行命令就能🌍 Terraform Model Context Protocol。适合经常用命令行的开发者，用完就走，不占资源。",
+      "能解决什么": "比如你经常需要批量处理文件、转换格式、或者跑脚本，以前要打开各种软件手动操作，现在终端敲一行命令就搞定。。比如你要把一批图片转成 WebP 格式，以前要打开 PS 一张张导出，现在一条命令全部自动处理完。",
+      "怎么跑起来": [
+        "确保安装了 Rust 工具链",
+        "git clone 项目代码 && cd 项目目录",
+        "cargo build --release",
+        "./target/release/项目名 启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "30-60 分钟（需编译）",
+        "前置要求": [
+          "Rust"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① pip/npm install 安装（2分钟）→ ② 按 README 示例跑几个命令（10分钟）→ ③ 思考：我的日常工作中有哪些场景可以用它提效？"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "Anthropic API",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "onepointAI-onepoint",
+    "repoId": "onepointAI/onepoint",
+    "owner": "onepointAI",
+    "repo": "onepoint",
+    "url": "https://github.com/onepointAI/onepoint",
+    "homepage": "https://www.1ptai.com/",
+    "description": "An AI assistant tool that integrates coding, writing, and reading functions. For better alternatives see https://monica.im/desktop",
+    "stars": 318,
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "all-in-one",
+      "chatgpt",
+      "coding",
+      "electron",
+      "gpt-35-turbo",
+      "macos",
+      "react",
+      "reading",
+      "toolkit",
+      "webscraper",
+      "xiaoai-tts"
+    ],
+    "createdAt": "2023-03-30",
+    "updatedAt": "2026-05-05",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者An AI assistant tool that integrates coding, writing, and reading functions. For（英文原文）",
+    "corePainPoint": "currently",
+    "monetizationPaths": [
+      "出视频课程 / 写付费教程赚培训费",
+      "提供企业级技术支持订阅",
+      "基于该库做垂直领域的 SaaS 产品"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟠 重二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟠 个人维护",
+      "盈利路径": "🟡 路径可见",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 7246,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": true,
+    "firstSeen": "2026-05-08",
+    "lastSeen": "2026-05-09",
+    "seenCount": 5,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的An AI assistant tool that功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Node.js 18+",
+        "git clone 项目代码 && cd 项目目录",
+        "npm install",
+        "npm run dev 或 npm start"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "TypeScript"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "Next.js",
+      "AI依赖": "OpenAI API",
+      "数据库": "",
+      "前端": "Next.js",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "openclaw-openclaw",
+    "repoId": "openclaw/openclaw",
+    "owner": "openclaw",
+    "repo": "openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "homepage": "https://openclaw.ai",
+    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+    "stars": 369626,
+    "language": "TypeScript",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "assistant",
+      "crustacean",
+      "molty",
+      "openclaw",
+      "own-your-data",
+      "personal"
+    ],
+    "createdAt": "2025-11-24",
+    "updatedAt": "2026-05-08",
+    "source": "api_search",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 3,
+    "oneLiner": "Web 应用，让你Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 （英文原文）",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "部署为 SaaS 服务，按月/年订阅收费",
+      "做白标版本，卖给企业客户",
+      "提供托管版，收取运维服务费"
+    ],
+    "actionSuggestions": [
+      "部署试用，用真实场景验证核心功能",
+      "理解项目价值主张和差异化",
+      "找到一个垂直细分场景做定制落地"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🟢 路径明确",
+      "竞争烈度": "🟠 拥挤",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 50000,
+    "hasDocker": true,
+    "hasDockerCompose": true,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-08",
+    "lastSeen": "2026-05-09",
+    "seenCount": 5,
+    "deepDive": {
+      "大白话": "这是一个带界面的网站/平台，你打开浏览器就能用。上传或输入数据，系统会自动帮你Your own personal AI assistant.。适合不想折腾代码、想要直观操作的用户。",
+      "能解决什么": "比如你想用 AI 生成图片但不会编程，打开这个网站，输入文字描述就能出图，和聊天一样简单。。比如团队想共享一个 AI 工具，不需要每人装一套环境，打开浏览器就能一起用。",
+      "怎么跑起来": [
+        "确保安装了 Node.js 18+",
+        "git clone 项目代码 && cd 项目目录",
+        "npm install",
+        "npm run dev 或 npm start"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "TypeScript"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 打开项目官网/demo 链接体验（5分钟）→ ② 如果满意，git clone 部署到本地（15分钟）→ ③ 用自己的数据测试是否满足需求（30分钟）。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "Anthropic API",
+      "数据库": "Redis",
+      "前端": "Next.js",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "mitsuhiko-pi-ds4",
+    "repoId": "mitsuhiko/pi-ds4",
+    "owner": "mitsuhiko",
+    "repo": "pi-ds4",
+    "url": "https://github.com/mitsuhiko/pi-ds4",
+    "homepage": "",
+    "description": "Run deepseek4 locally on metal right from within Pi",
+    "stars": 38,
+    "language": "TypeScript",
+    "license": "",
+    "topics": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "source": "api_trending",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 1,
+    "oneLiner": "开发库/框架，帮开发者Run deepseek4 locally on metal right from within Pi（英文原文）",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [],
+    "sixDimensions": {
+      "实现难度": "🔴 做不了",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🔴 濒临废弃",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "👤 维护者风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 2323,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": false,
+    "hasCi": false,
+    "firstSeen": "2026-05-09",
+    "lastSeen": "2026-05-09",
+    "seenCount": 1,
+    "deepDive": null,
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "anthropics-financial-services",
+    "repoId": "anthropics/financial-services",
+    "owner": "anthropics",
+    "repo": "financial-services",
+    "url": "https://github.com/anthropics/financial-services",
+    "homepage": "",
+    "description": "",
+    "stars": 14247,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "source": "trending",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者完成 AI 相关任务",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟡 有空间",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 16256,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": false,
+    "hasCi": false,
+    "firstSeen": "2026-05-09",
+    "lastSeen": "2026-05-09",
+    "seenCount": 3,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的相关任务功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "Hmbown-DeepSeek-TUI",
+    "repoId": "Hmbown/DeepSeek-TUI",
+    "owner": "Hmbown",
+    "repo": "DeepSeek-TUI",
+    "url": "https://github.com/Hmbown/DeepSeek-TUI",
+    "homepage": "",
+    "description": "Coding agent for DeepSeek models that runs in your terminal",
+    "stars": 21497,
+    "language": "Rust",
+    "license": "",
+    "topics": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "source": "trending",
+    "categoryTag": "AI模型/权重",
+    "displayCategory": "learn-reference",
+    "intelligenceLevel": 2,
+    "oneLiner": "命令行工具，帮你Coding agent for DeepSeek models that runs in your terminal（英文原文）",
+    "corePainPoint": "currently、before",
+    "monetizationPaths": [
+      "做成可视化桌面版或 Web 版，降低使用门槛",
+      "开发 IDE 插件集成，扩大用户群",
+      "面向企业提供定制版 + 技术支持"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🛠 独立工具",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟡 有空间",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 26811,
+    "hasDocker": true,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-09",
+    "lastSeen": "2026-05-09",
+    "seenCount": 3,
+    "deepDive": {
+      "大白话": "这是一个命令行工具，你不需要打开浏览器，在终端里敲几行命令就能Coding agent for DeepSeek models。适合经常用命令行的开发者，用完就走，不占资源。",
+      "能解决什么": "比如你经常需要批量处理文件、转换格式、或者跑脚本，以前要打开各种软件手动操作，现在终端敲一行命令就搞定。。比如你要把一批图片转成 WebP 格式，以前要打开 PS 一张张导出，现在一条命令全部自动处理完。",
+      "怎么跑起来": [
+        "确保安装了 Rust 工具链",
+        "git clone 项目代码 && cd 项目目录",
+        "cargo build --release",
+        "./target/release/项目名 启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "30-60 分钟（需编译）",
+        "前置要求": [
+          "Rust"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① pip/npm install 安装（2分钟）→ ② 按 README 示例跑几个命令（10分钟）→ ③ 思考：我的日常工作中有哪些场景可以用它提效？"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "SQLite",
+      "前端": "Next.js",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "z-lab-dflash",
+    "repoId": "z-lab/dflash",
+    "owner": "z-lab",
+    "repo": "dflash",
+    "url": "https://github.com/z-lab/dflash",
+    "homepage": "",
+    "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
+    "stars": 3750,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "source": "trending",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者DFlash: Block Diffusion for Flash Speculative Decoding（英文原文）",
+    "corePainPoint": "currently",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟡 轻二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟡 活跃成长",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 8927,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-09",
+    "lastSeen": "2026-05-09",
+    "seenCount": 3,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的DFlash: Block Diffusion for Flash功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "CloakHQ-CloakBrowser",
+    "repoId": "CloakHQ/CloakBrowser",
+    "owner": "CloakHQ",
+    "repo": "CloakBrowser",
+    "url": "https://github.com/CloakHQ/CloakBrowser",
+    "homepage": "",
+    "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+    "stars": 2696,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "source": "trending",
+    "categoryTag": "垂直AI应用",
+    "displayCategory": "need-modify",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者Stealth Chromium that passes every bot detection test. Drop-in Playwright replac（英文原文）",
+    "corePainPoint": "before",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟡 轻二开",
+      "产出结果": "🛠 独立工具",
+      "持续性": "🟡 活跃成长",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 50000,
+    "hasDocker": true,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-09",
+    "lastSeen": "2026-05-09",
+    "seenCount": 3,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的Stealth Chromium that passes every功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "awslabs-aidlc-workflows",
+    "repoId": "awslabs/aidlc-workflows",
+    "owner": "awslabs",
+    "repo": "aidlc-workflows",
+    "url": "https://github.com/awslabs/aidlc-workflows",
+    "homepage": "",
+    "description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents",
+    "stars": 1670,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "source": "trending",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding age（英文原文）",
+    "corePainPoint": "problem、currently、before",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟡 轻二开",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟡 活跃成长",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 35378,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-09",
+    "lastSeen": "2026-05-09",
+    "seenCount": 3,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的AI-Driven Life Cycle (AI-DLC) adaptive功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "HKUDS-AI-Trader",
+    "repoId": "HKUDS/AI-Trader",
+    "owner": "HKUDS",
+    "repo": "AI-Trader",
+    "url": "https://github.com/HKUDS/AI-Trader",
+    "homepage": "",
+    "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
+    "stars": 14455,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "source": "trending",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者自动化d Agent-Native Trading\"",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟡 有空间",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 6481,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-09",
+    "lastSeen": "2026-05-09",
+    "seenCount": 3,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的\"AI-Trader: 100% Fully-Automated Agent-N功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "LearningCircuit-local-deep-research",
+    "repoId": "LearningCircuit/local-deep-research",
+    "owner": "LearningCircuit",
+    "repo": "local-deep-research",
+    "url": "https://github.com/LearningCircuit/local-deep-research",
+    "homepage": "",
+    "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
+    "stars": 6623,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "source": "trending",
+    "categoryTag": "垂直AI应用",
+    "displayCategory": "need-modify",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者搜索engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
+    "corePainPoint": "before、difficult to",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🛠 独立工具",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟢 蓝海",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 34020,
+    "hasDocker": true,
+    "hasDockerCompose": true,
+    "hasTests": true,
+    "hasCi": true,
+    "firstSeen": "2026-05-09",
+    "lastSeen": "2026-05-09",
+    "seenCount": 3,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的~95% on SimpleQA (e.g. Qwen3.6-27B功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "OpenAI API",
+      "数据库": "PostgreSQL",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "lobehub-lobehub",
+    "repoId": "lobehub/lobehub",
+    "owner": "lobehub",
+    "repo": "lobehub",
+    "url": "https://github.com/lobehub/lobehub",
+    "homepage": "",
+    "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
+    "stars": 76365,
+    "language": "TypeScript",
+    "license": "",
+    "topics": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "source": "trending",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 3,
+    "oneLiner": "开发库/框架，帮开发者构建, and collaborate with agent teammates that grow with you. We are taking agent h",
+    "corePainPoint": "problem、currently、before、difficult to",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [
+      "阅读核心模块源码（约 500 行），理解架构设计",
+      "找一个具体业务场景，写一个最小可行 demo",
+      "评估：开发效率提升多少？维护成本是否可控？"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟠 拥挤",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 50000,
+    "hasDocker": true,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-09",
+    "lastSeen": "2026-05-09",
+    "seenCount": 3,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的The ultimate space for work功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Node.js 18+",
+        "git clone 项目代码 && cd 项目目录",
+        "npm install",
+        "npm run dev 或 npm start"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "TypeScript"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "Next.js",
+      "AI依赖": "OpenAI API",
+      "数据库": "PostgreSQL",
+      "前端": "Next.js",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
+  },
+  {
+    "slug": "datawhalechina-hello-agents",
+    "repoId": "datawhalechina/hello-agents",
+    "owner": "datawhalechina",
+    "repo": "hello-agents",
+    "url": "https://github.com/datawhalechina/hello-agents",
+    "homepage": "",
+    "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+    "stars": 44436,
+    "language": "Python",
+    "license": "",
+    "topics": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "source": "trending",
+    "categoryTag": "AI工具/SaaS",
+    "displayCategory": "can-earn",
+    "intelligenceLevel": 2,
+    "oneLiner": "开发库/框架，帮开发者📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程（英文原文）",
+    "corePainPoint": "",
+    "monetizationPaths": [
+      "学习技术后自己做一个类似的开源版"
+    ],
+    "actionSuggestions": [
+      "Watch 仓库跟踪发展",
+      "等 Star 增速确认趋势后再投入"
+    ],
+    "sixDimensions": {
+      "实现难度": "🟢 直接用",
+      "产出结果": "🧩 SaaS产品",
+      "持续性": "🟢 长期可靠",
+      "盈利路径": "🔴 无路径",
+      "竞争烈度": "🟡 有空间",
+      "风险等级": [
+        "无显著风险"
+      ]
+    },
+    "hasReadme": true,
+    "readmeLength": 12221,
+    "hasDocker": false,
+    "hasDockerCompose": false,
+    "hasTests": true,
+    "hasCi": false,
+    "firstSeen": "2026-05-09",
+    "lastSeen": "2026-05-09",
+    "seenCount": 3,
+    "deepDive": {
+      "大白话": "这是给程序员用的代码库/框架。你把它加到你的项目里，就能直接用现成的📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程功能，不用自己从零写。适合需要快速集成的开发者。",
+      "能解决什么": "比如你要在自己的 App 里加一个 AI 对话功能，不用从零研究大模型，引入这个库几行代码就搞定。。比如你要做代码自动补全，不用自己训练模型，这个库已经给你封装好了，直接调用 API 就行。",
+      "怎么跑起来": [
+        "确保安装了 Python 3.10+",
+        "git clone 项目代码 && cd 项目目录",
+        "pip install -r requirements.txt",
+        "python main.py 或按 README 说明启动"
+      ],
+      "使用门槛": {
+        "难度": "⭐⭐⭐",
+        "难度文字": "高（文档不完善）",
+        "时间": "15-30 分钟",
+        "前置要求": [
+          "Python"
+        ]
+      },
+      "赚钱思路": "该项目暂无明确的赚钱思路，可以作为学习参考。",
+      "下一步行动": "① 阅读核心模块的 README 和示例代码（15分钟）→ ② 写一个最小 demo 跑通基本功能（30分钟）→ ③ 评估集成到项目中的工作量和收益。"
+    },
+    "techStack": {
+      "主语言": "Python",
+      "框架": "",
+      "AI依赖": "",
+      "数据库": "",
+      "前端": "",
+      "部署": "Docker Compose",
+      "向量数据库": ""
+    },
+    "useCases": []
   }
 ]

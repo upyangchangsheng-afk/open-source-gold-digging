@@ -26,6 +26,12 @@ export function timeAgo(dateStr: string): string {
   return `${Math.floor(days / 365)}年前`;
 }
 
+export function isToday(dateStr: string): boolean {
+  if (!dateStr) return false;
+  const today = new Date().toISOString().slice(0, 10);
+  return dateStr === today;
+}
+
 export function isNewProject(createdAt: string): boolean {
   const now = new Date();
   const then = new Date(createdAt);

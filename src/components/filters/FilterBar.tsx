@@ -50,6 +50,21 @@ export default function FilterBar({
               {cat.icon} {cat.label}
             </button>
           ))}
+          <button
+            onClick={() =>
+              onChange({
+                ...currentFilter,
+                onlyNewToday: !currentFilter.onlyNewToday,
+              })
+            }
+            className={`shrink-0 rounded-full px-3 py-1.5 text-sm transition-colors ${
+              currentFilter.onlyNewToday
+                ? 'bg-[#2563eb] text-white'
+                : 'border border-black/10 bg-white text-[#2563eb]'
+            }`}
+          >
+            🆕 今日新增
+          </button>
         </div>
 
         {/* Sort */}

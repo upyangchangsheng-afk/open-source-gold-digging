@@ -1,9 +1,12 @@
-import { isNewProject } from '@/lib/utils';
+import { isNewProject, isToday } from '@/lib/utils';
 import type { Project } from '@/lib/types';
 
 export default function OpportunityBadges({ project }: { project: Project }) {
   const badges: string[] = [];
 
+  if (project.firstSeen && isToday(project.firstSeen)) {
+    badges.push('🆕 今日新增');
+  }
   if (isNewProject(project.createdAt)) {
     badges.push('🆕 新项目');
   }

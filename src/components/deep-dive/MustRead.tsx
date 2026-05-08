@@ -58,7 +58,31 @@ export default function MustRead({ project }: { project: Project }) {
             <p className="mt-1 text-[15px] text-[#404040]">{project.corePainPoint}</p>
           </div>
         )}
+
+        {project.deepDive?.大白话 && (
+          <div className="mt-3 rounded-lg bg-blue-50 p-3">
+            <h3 className="text-sm font-semibold text-[#2563eb]">💡 大白话解释</h3>
+            <p className="mt-1 text-[15px] leading-relaxed text-[#404040]">
+              {project.deepDive.大白话}
+            </p>
+          </div>
+        )}
       </div>
+
+      {project.useCases && project.useCases.length > 0 && (
+        <div className="mt-5 rounded-xl bg-[#fafaf9] p-4">
+          <h2 className="text-sm font-semibold text-[#171717]">📋 使用案例</h2>
+          <div className="mt-2 space-y-3">
+            {project.useCases.map((uc, i) => (
+              <div key={i} className="rounded-lg bg-white p-3 border border-black/5">
+                <p className="text-sm font-medium text-[#171717]">{uc.场景}：{uc.做什么}</p>
+                <p className="mt-1 text-xs text-[#8a8a8a]">怎么用：{uc.怎么做}</p>
+                <p className="mt-0.5 text-xs text-[#16a34a]">效果：{uc.预期效果}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </section>
   );
 }

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import type { Project } from '@/lib/types';
 
 export default function HowToMake({
   actionSuggestions,
@@ -10,6 +11,8 @@ export default function HowToMake({
   hasCi,
   language,
   riskLevels,
+  deepDive,
+  techStack,
 }: {
   actionSuggestions: string[];
   hasDocker: boolean;
@@ -18,6 +21,8 @@ export default function HowToMake({
   hasCi: boolean;
   language: string;
   riskLevels: string[];
+  deepDive?: Project['deepDive'];
+  techStack?: Project['techStack'];
 }) {
   const [open, setOpen] = useState(false);
 
@@ -46,10 +51,30 @@ export default function HowToMake({
           <div className="rounded-lg bg-[#fafaf9] p-3">
             <p className="text-sm text-[#404040]">
               <span className="font-semibold">技术栈：</span>
-              {language || '未知语言'}
-              {hasDocker || hasDockerCompose
-                ? ' · 可容器化部署'
-                : ' · 需自行配置环境'}
+              {techStack ? (
+                <span>
+                  {techStack.主语言 && <span>🔤 {techStack.主语言} </span>}
+                  {techStack.框架 && techStack.框架.length > 0 && (
+                    <span>· 框架: {techStack.框架.join(', ')} </span>
+                  )}
+                  {techStack.AI依赖 && techStack.AI依赖.length > 0 && (
+                    <span>· AI: {techStack.AI依赖.join(', ')} </span>
+                  )}
+                  {techStack.数据库 && techStack.数据库.length > 0 && (
+                    <span>· 数据库: {techStack.数据库.join(', ')} </span>
+                  )}
+                  {techStack.部署方式 && techStack.部署方式.length > 0 && (
+                    <span>· 部署: {techStack.部署方式.join(', ')}</span>
+                  )}
+                </span>
+              ) : (
+                <span>
+                  {language || '未知语言'}
+                  {hasDocker || hasDockerCompose
+                    ? ' · 可容器化部署'
+                    : ' · 需自行配置环境'}
+                </span>
+              )}
             </p>
           </div>
 
@@ -70,6 +95,30 @@ export default function HowToMake({
                   </li>
                 ))}
               </ol>
+            </div>
+          )}
+
+          {/* 怎么跑起来 */}
+          {deepDive?.怎么跑起来 && (
+            <div>
+              <h3 className="text-sm font-semibold text-[#171717]">🖥️ 怎么跑起来</h3>
+              <div className="mt-2 rounded-lg bg-[#fafaf9] p-3">
+                <pre className="whitespace-pre-wrap text-sm text-[#404040] font-mono">
+                  {deepDive.怎么跑起来}
+                </pre>
+              </div>
+            </div>
+          )}
+
+          {/* 赚钱思路 */}
+          {deepDive?.赚钱思路 && (
+            <div>
+              <h3 className="text-sm font-semibold text-[#16a34a]">💰 赚钱思路</h3>
+              <div className="mt-2 rounded-lg bg-green-50 p-3">
+                <p className="text-sm leading-relaxed text-[#404040]">
+                  {deepDive.赚钱思路}
+                </p>
+              </div>
             </div>
           )}
 

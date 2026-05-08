@@ -8,6 +8,7 @@ import type {
 } from './types';
 import projectsData from '@/data/projects.json';
 import weeklyPicksData from '@/data/weekly-picks.json';
+import { isToday } from './utils';
 
 const projects: Project[] = projectsData as Project[];
 const weeklyPicks: WeeklyPick[] = weeklyPicksData as WeeklyPick[];
@@ -73,6 +74,10 @@ export function filterProjects(filter: FilterState): Project[] {
 
   if (filter.category) {
     result = result.filter((p) => p.displayCategory === filter.category);
+  }
+
+  if (filter.onlyNewToday) {
+    result = result.filter((p) => p.firstSeen && isToday(p.firstSeen));
   }
 
   switch (filter.sortBy) {

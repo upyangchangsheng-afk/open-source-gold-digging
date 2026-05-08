@@ -77,6 +77,14 @@ function transform() {
       hasDockerCompose: a.有DockerCompose || false,
       hasTests: a.有Tests || false,
       hasCi: a.有CI || false,
+
+      firstSeen: entry.first_seen || '',
+      lastSeen: entry.last_seen || '',
+      seenCount: entry.seen_count || 0,
+
+      deepDive: a.深度解析 || null,
+      techStack: a.技术栈 || null,
+      useCases: a.使用案例 || [],
     });
   }
 

@@ -59,6 +59,8 @@ export default async function DeepDivePage({
           hasCi={project.hasCi}
           language={project.language}
           riskLevels={project.sixDimensions.风险等级}
+          deepDive={project.deepDive}
+          techStack={project.techStack}
         />
       </div>
 
