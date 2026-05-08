@@ -46,8 +46,7 @@ export default function SubscribePage() {
           </p>
           <ul className="mt-3 space-y-2 text-sm text-[#404040]">
             <li>· 小红书：{site.social.xiaohongshu}</li>
-            <li>· 即刻：{site.social.jike}</li>
-            <li>· V2EX：{site.social.v2ex}</li>
+            <li>· 抖音：{site.social.douyin}</li>
           </ul>
         </section>
 

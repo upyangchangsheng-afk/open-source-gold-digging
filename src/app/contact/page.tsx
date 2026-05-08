@@ -48,9 +48,8 @@ export default function ContactPage() {
         <section className="rounded-2xl border border-black/5 bg-white p-6 shadow-[0_1px_3px_rgba(0,0,0,0.06)]">
           <h2 className="text-lg font-semibold text-[#171717]">其他渠道</h2>
           <ul className="mt-3 space-y-1 text-sm text-[#404040]">
-            <li>· V2EX：{site.social.v2ex}</li>
             <li>· 小红书：{site.social.xiaohongshu}</li>
-            <li>· 即刻：{site.social.jike}</li>
+            <li>· 抖音：{site.social.douyin}</li>
             <li>· GitHub：{site.social.github}</li>
           </ul>
         </section>
