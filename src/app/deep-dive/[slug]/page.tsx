@@ -1,9 +1,8 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getAllProjects, getProjectBySlug } from '@/lib/projects';
-import MustRead from '@/components/deep-dive/MustRead';
-import WorthIt from '@/components/deep-dive/WorthIt';
-import HowToMake from '@/components/deep-dive/HowToMake';
+import QuickCard from '@/components/deep-dive/QuickCard';
+import FullReport from '@/components/deep-dive/FullReport';
 import Link from 'next/link';
 
 export async function generateStaticParams() {
@@ -20,7 +19,7 @@ export async function generateMetadata({
   const project = getProjectBySlug(slug);
   if (!project) return { title: '未找到' };
   return {
-    title: `${project.repo} — 深度拆解`,
+    title: `${project.repo} — 商业可行性报告`,
     description: project.oneLiner || project.description,
   };
 }
@@ -46,21 +45,10 @@ export default async function DeepDivePage({
       </div>
 
       <div className="mx-auto max-w-[900px] px-4 pt-4">
-        <MustRead project={project} />
-        <WorthIt
-          sixDimensions={project.sixDimensions}
-          monetizationPaths={project.monetizationPaths}
-        />
-        <HowToMake
-          actionSuggestions={project.actionSuggestions}
-          hasDocker={project.hasDocker}
-          hasDockerCompose={project.hasDockerCompose}
-          hasTests={project.hasTests}
-          hasCi={project.hasCi}
-          language={project.language}
-          riskLevels={project.sixDimensions.风险等级}
-          deepDive={project.deepDive}
-          techStack={project.techStack}
+        <QuickCard project={project} />
+        <FullReport
+          report={project.fullReport}
+          quickCard={project.quickCard}
         />
       </div>
 
