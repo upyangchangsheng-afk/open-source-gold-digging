@@ -97,6 +97,19 @@ function transform() {
       createdAt: cur.created_at || '',
       updatedAt: cur.updated_at || '',
       source: cur.source || '',
+      sourceType: cur.source_type || cur.source || '',
+
+      // 🆕 非GitHub源的元数据
+      sourceMeta: {
+        hnPoints: cur.hn_points || 0,
+        hnComments: cur.hn_comments || 0,
+        devtoReactions: cur.devto_reactions || 0,
+        devtoComments: cur.devto_comments || 0,
+        ihRevenue: cur.ih_revenue || '',
+        ytViews: cur.yt_views || 0,
+        ytLikes: cur.yt_likes || 0,
+        ytRevenueSignal: cur.yt_revenue_signal || '',
+      },
 
       categoryTag: a.项目类型标签 || '',
       displayCategory: mapCategory(a.项目类型标签),

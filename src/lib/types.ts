@@ -39,6 +39,19 @@ export interface Project {
   createdAt: string;
   updatedAt: string;
   source: string;
+  sourceType?: string;
+
+  /** 非GitHub数据源的元数据 */
+  sourceMeta?: {
+    hnPoints?: number;
+    hnComments?: number;
+    devtoReactions?: number;
+    devtoComments?: number;
+    ihRevenue?: string;
+    ytViews?: number;
+    ytLikes?: number;
+    ytRevenueSignal?: string;
+  };
 
   categoryTag: string;
   displayCategory: DisplayCategory;
