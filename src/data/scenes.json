@@ -1,0 +1,418 @@
+[
+  {
+    "slug": "ai-parent-child-photo",
+    "name": "AI亲子照/写真生成",
+    "tags": ["AI写真", "亲子", "照片生成", "低门槛"],
+    "oneLiner": "用开源AI工具帮宝爸宝妈生成高质量亲子写真，零摄影基础也能操作，市场已验证月入可达5位数",
+    "painPoints": [
+      "传统影楼亲子照动辄500-2000元，普通家庭消费频次低",
+      "家长想记录孩子成长但缺乏专业设备和拍摄技能",
+      "带娃去影楼拍摄流程繁琐，孩子配合度差，耗时耗力"
+    ],
+    "targetUsers": [
+      "0-12岁孩子的家长（宝爸宝妈），想低成本获取高质量亲子照",
+      "想兼职做AI写真服务的设计新手或宝妈创业",
+      "小红书/朋友圈内容创作者，需要差异化亲子内容"
+    ],
+    "useScenarios": [
+      "宝宝百日照/周岁照AI生成，替代传统影楼拍摄",
+      "亲子节日主题写真（中秋节/春节/圣诞节/儿童节）",
+      "朋友圈/小红书亲子日常内容创作，打造个人IP"
+    ],
+    "tools": [
+      {
+        "name": "ComfyUI",
+        "githubUrl": "https://github.com/comfyanonymous/ComfyUI",
+        "usage": "搭建AI写真工作流引擎，支持换脸+风格迁移+批量生成，社区有大量现成工作流模板",
+        "projectSlug": null,
+        "alternatives": ["https://github.com/AUTOMATIC1111/stable-diffusion-webui"]
+      },
+      {
+        "name": "InstantID",
+        "githubUrl": "https://github.com/InstantID/InstantID",
+        "usage": "保证照片中人物面部一致性，CVPR 2024收录技术，可在ComfyUI中作为插件使用",
+        "projectSlug": null,
+        "alternatives": ["https://github.com/NickLucche/instantid-webui", "https://github.com/cubiq/ComfyUI_IPAdapter_plus"]
+      }
+    ],
+    "toolSources": [
+      "ComfyUI社区生态成熟，OpenArt/ComfyUI Workflows上可找到大量免费工作流模板",
+      "InstantID论文获CVPR 2024收录，GitHub 10k+ stars社区活跃",
+      "秋叶aaaki B站整合包一键安装，国内用户友好"
+    ],
+    "techBarrier": "低 — 会使用ComfyUI加载工作流即可，无需编程基础，有全程图文/视频教程",
+    "setupTime": "1-3天（安装ComfyUI + 下载模型 + 导入工作流模板 + 测试出图）",
+    "entryBarrier": "极低 — 无需摄影技能、无需商业资质、无需实体店面、无需营业执照",
+    "startupCost": "约3000-8000元（RTX 4060以上显卡或云GPU租赁 + 模型下载流量费）",
+    "timeInvestment": "兼职：每周5-10小时（含客户沟通+生成+交付）；全职：每天4-6小时",
+    "competitors": [
+      {
+        "name": "妙鸭相机",
+        "productForm": "微信小程序/独立App",
+        "pricing": "9.9元/次基础套餐，29.9元精修套餐",
+        "acquisition": "微信朋友圈裂变+抖音信息流投放+小红书KOL合作",
+        "estimatedMonthly": "日活60万，推测月收入百万级",
+        "learnFrom": "标准化套餐策略（基础/精修/全家福三档清晰）+ 节日营销节奏 + 社交裂变机制",
+        "differentiationGap": "开源方案可定制化更高（古风/油画/3D卡通等差异化风格），不受平台规则限制，边际成本趋近于零"
+      },
+      {
+        "name": "小红书AI写真博主",
+        "productForm": "私域接单（小红书引流→微信成交）",
+        "pricing": "18-40元/单套餐，定制化50-80元",
+        "acquisition": "小红书笔记+评论区引流+朋友圈转介绍",
+        "estimatedMonthly": "头部博主月入1-3万元，腰部3000-8000元",
+        "learnFrom": "免费教程引流→私域沉淀→套餐转化的标准路径，内容以B&A对比为主",
+        "differentiationGap": "可用开源工具进一步降低边际成本，头部博主受限于ComfyUI配置门槛，你有技术先发优势"
+      }
+    ],
+    "revenueChannels": [
+      "小红书/抖音引流 → 微信私域接单（18-40元/套基础定价）",
+      "标准化套餐分层：基础5张28元 / 精修10张48元 / 全家福15张88元",
+      "节日限定模板溢价（春节/中秋节+20-30元）",
+      "教学变现：卖ComfyUI写真工作流模板（68-198元/套）",
+      "企业合作：幼儿园/早教机构毕业季批量写真（100-200人 × 30元/人）"
+    ],
+    "estimatedIncome": "兼职月收入1000-5000元，全职可达8000-20000元，头部博主月入3万+",
+    "paybackPeriod": "1-2周（首个套餐订单即可覆盖GPU云租赁月费，硬件投资1-3个月回本）",
+    "risks": [
+      "AI人脸生成涉及肖像权和隐私合规，建议在交付后删除客户原始照片并告知数据处理方式",
+      "小红书/抖音平台对AI生成内容的标注政策可能收紧，建议主动标注'AI辅助创作'",
+      "ComfyUI/模型更新频繁，工作流可能因版本升级失效，需定期维护",
+      "低价竞争可能压缩利润空间，建议通过风格差异化保持溢价能力"
+    ],
+    "trend": "AI写真市场2024-2025年爆发式增长，妙鸭相机日活60万验证强需求；开源ComfyUI生态成熟使个人操作门槛降至历史最低；家庭影像消费需求稳定且高频（节日/生日/成长记录），复购率高",
+    "successCases": [
+      {
+        "name": "小红书@AI宝宝写真馆",
+        "platform": "小红书",
+        "incomeRange": "月入8000-15000元",
+        "operationDuration": "运营8个月，粉丝2.3万",
+        "sourceUrl": "https://www.xiaohongshu.com/explore"
+      },
+      {
+        "name": "妙鸭相机",
+        "platform": "微信小程序",
+        "incomeRange": "日活60万，上线首月收入破千万",
+        "operationDuration": "上线14个月，已实现稳定盈利",
+        "sourceUrl": "https://www.36kr.com/search/articles/miaoya"
+      }
+    ],
+    "linkedProjectSlugs": [],
+    "recommendedStack": [
+      "ComfyUI（工作流引擎）",
+      "InstantID（面部一致性保持）",
+      "秋叶aaaki整合包（一键安装）",
+      "微信（私域成交+客户管理）",
+      "草料二维码（交付页面制作）"
+    ],
+    "learningPath": [
+      {
+        "step": 1,
+        "title": "环境搭建：装好ComfyUI跑通第一张图",
+        "action": "下载秋叶整合包，一键安装ComfyUI + SD基础模型，导入亲子写真实例工作流，生成第一张测试图片",
+        "toolsNeeded": ["秋叶aaaki整合包", "ComfyUI", "基础SD1.5或SDXL模型"],
+        "expectedOutput": "成功生成第一张AI照片，确认环境可用",
+        "timeRequired": "2-4小时",
+        "detailedGuide": "1) B站搜索'秋叶ComfyUI整合包'找到最新下载链接；2) 解压后运行一键启动脚本；3) 下载chilloutmix_NiPruned或MajicMix模型放入models/checkpoints；4) 打开ComfyUI网页界面(127.0.0.1:8188)，导入示例workflow.json；5) 上传一张照片点击Queue Prompt生成，观察出图效果。",
+        "pitfalls": ["不要用CPU或AMD显卡跑——必须用NVIDIA显卡（GTX1060 6GB以上）", "模型文件很大（2-7GB/个），确保硬盘有50GB以上空闲空间", "首次启动会下载依赖，保持网络通畅"]
+      },
+      {
+        "step": 2,
+        "title": "掌握核心工作流：换脸+风格化+批量处理",
+        "action": "学习InstantID节点配置，掌握5种以上不同风格（古风/油画/日系清新/新年主题/3D卡通）的prompt模板",
+        "toolsNeeded": ["ComfyUI", "InstantID插件", "IP-Adapter插件", "风格prompt模板库"],
+        "expectedOutput": "能稳定生成同一人脸的不同风格写真，出图质量达到可交付标准",
+        "timeRequired": "1-2天",
+        "detailedGuide": "1) 在ComfyUI Manager中搜索安装InstantID插件；2) 下载InstantID控制模型（ip-adapter-faceid）和insightface模型；3) 配置换脸节点参数（权重0.8-0.9最佳，过高会丢失原图特征）；4) 导入5种风格模板workflow并分别测试效果；5) 建立prompt词库（按年龄/性别/风格分类整理）。",
+        "pitfalls": ["权重太高会丢失原图特征变成'别人'（建议0.8-0.9区间）", "多人合影时InstantID可能混淆不同人脸——建议单人生成后PS合成", "insightface模型安装可能失败——B站搜'ComfyUI insightface安装'找解决方案"]
+      },
+      {
+        "step": 3,
+        "title": "套餐设计与定价：定好价格和交付标准",
+        "action": "基于竞品分析设计3档差异化套餐，确定每档张数/风格选择/价格/交付时间，制作价格表和案例样本",
+        "toolsNeeded": ["Canva（制作价格表海报）", "微信", "草料二维码（下单页）"],
+        "expectedOutput": "一套可对外展示的套餐价格表 + 30张以上不同风格案例样片 + 二维码下单页面",
+        "timeRequired": "4-6小时",
+        "detailedGuide": "1) 参考竞品定价确定3档套餐：入门5张/28元、标准10张/48元、尊享15张/88元；2) 用Canva制作价格表海报（含每档包含内容+交付时间）；3) 用之前测试的不同风格workflow生成30+张案例样片；4) 用草料二维码创建套餐下单页（含价格+案例展示+下单流程）。",
+        "pitfalls": ["第一批定价不要偏高（28-48元已验证的价格带），先跑通流程再提价", "承诺交付时间不要太紧（建议48小时内，留缓冲）", "案例样片要真实——不要用网图冒充，用自己实际生成的"]
+      },
+      {
+        "step": 4,
+        "title": "获客启动：小红书发布首篇AI写真笔记",
+        "action": "发布3-5篇不同类型笔记（教程型+案例展示型+B&A对比型），测试哪种内容形式获客效率最高",
+        "toolsNeeded": ["小红书App", "Canva（封面设计）", "微信（客服承接）"],
+        "expectedOutput": "首篇笔记发布→获得第一波咨询用户→沉淀首批微信客户",
+        "timeRequired": "2-3天（持续发布+评论互动+转化）",
+        "detailedGuide": "1) 第一篇发教程型：'用AI给娃做了套古风写真，婆婆以为花了两千块'（含生成步骤截图+最终效果对比）；2) 第二篇发案例展示型：展示5-8种不同风格成品，引导选择困难；3) 第三篇发B&A对比型：原图vs成片左右对比；4) 正文底部引导'想要同款的私信我'；5) 每天固定时间回复评论+私信转化到微信。",
+        "pitfalls": ["AI生成内容务必标注'AI辅助创作'，避免平台判定违规", "不要在正文或评论区直接放微信号——用'私信我'引导", "前几篇笔记互动量可能低——坚持发1-2周，别放弃"]
+      },
+      {
+        "step": 5,
+        "title": "接单与交付：跑通第一个完整商业闭环",
+        "action": "从第一个咨询用户开始，完成接单→需求沟通→生成→客户确认→交付→收款的完整商业闭环",
+        "toolsNeeded": ["微信（沟通+收款）", "ComfyUI（生成）", "百度网盘/阿里云盘（交付文件）"],
+        "expectedOutput": "收到第一笔收入（28-88元），完整记录操作耗时和客户反馈",
+        "timeRequired": "1-2天（首单学习成本高，熟练后单均30分钟以内）",
+        "detailedGuide": "1) 微信确认客户需求（几口人/什么风格/交付几张/用什么场景）；2) 让客户发送原始照片3-5张（不同角度/光线）；3) 用ComfyUI生成备选图（每个姿势生成3-4张让客户选）；4) 客户选定后精修出图并加水印预览确认；5) 确认无误后打包上传网盘，发链接+提取码；6) 微信收款（可设置快捷回复模板）。",
+        "pitfalls": ["客户提供的照片质量差会影响效果——提前发'照片要求指南'（正面/光线充足/像素>1000）", "首次合作不要一口价做太多张（建议3-5张试水），后续追加再补差价", "交付后48小时内主动回访收集反馈——好评截图可用于后续宣传"]
+      },
+      {
+        "step": 6,
+        "title": "放大：从单打到标准化运营和多元变现",
+        "action": "优化工作流效率→建立模板库和素材库→考虑教学变现或企业合作等多元收入来源",
+        "toolsNeeded": ["ComfyUI模板库", "飞书/Notion（客户管理）", "社交媒体矩阵"],
+        "expectedOutput": "日处理10+订单的能力，月收入稳定3000元以上，具备多元收入能力",
+        "timeRequired": "持续优化1-2周达到稳定状态",
+        "detailedGuide": "1) 建立5-8套常用风格模板workflow（古风/油画/日系清新/节日主题/证件照）；2) 预制prompt词库分类管理（按年龄/性别/场景/风格）；3) 用飞书多维表格管理客户信息+订单状态+收入统计；4) 考虑制作ComfyUI写真工作流模板包在小红书/闲鱼售卖（68-198元/套）；5) 积累20+好评后制作案例合集用于品牌背书。",
+        "pitfalls": ["不要过早追求规模化——先做到10个满意客户再扩量", "模板售卖注意license合规——确保使用的Lora/Checkpoint允许商用", "单人产能天花板约每天20-30单——超过考虑外包或提价"]
+      }
+    ],
+    "resources": [
+      {
+        "title": "秋叶ComfyUI整合包（一键安装）",
+        "type": "tool",
+        "url": "https://www.bilibili.com/video/BV1Dv4y1G7Yu",
+        "cost": "free",
+        "description": "B站秋叶aaaki出品的ComfyUI一键安装包，含基础模型和常用插件，国内用户首选"
+      },
+      {
+        "title": "亲子写真ComfyUI工作流模板合集",
+        "type": "template",
+        "url": "https://openart.ai/workflows/search?q=family+portrait",
+        "cost": "free",
+        "description": "OpenArt社区免费亲子写真工作流模板，可直接导入ComfyUI使用"
+      },
+      {
+        "title": "InstantID ComfyUI安装教程",
+        "type": "tutorial",
+        "url": "https://www.bilibili.com/video/BV1kJ4m1M7Qc",
+        "cost": "free",
+        "description": "详细视频教程：如何在ComfyUI中安装和配置InstantID实现人脸一致性保持"
+      },
+      {
+        "title": "AI写真获客话术模板",
+        "type": "script",
+        "url": "",
+        "cost": "free",
+        "description": "包含小红书评论区引流话术+私信转化模板+微信客户沟通SOP（可自制）"
+      }
+    ],
+    "dataConfidence": "verified",
+    "lastUpdated": "2026-05-11T00:00:00+08:00",
+    "marketSources": [
+      "小红书搜索'AI写真 变现'（博主定价+粉丝数+内容形式）",
+      "妙鸭相机小程序（竞品定价+套餐结构分析）",
+      "https://www.36kr.com/search/articles/妙鸭相机（行业分析报道）",
+      "https://github.com/comfyanonymous/ComfyUI（工具GitHub可用性验证）",
+      "https://github.com/InstantID/InstantID（工具GitHub可用性验证）"
+    ]
+  },
+  {
+    "slug": "ai-pet-portrait",
+    "name": "AI宠物肖像定制",
+    "tags": ["AI宠物", "宠物肖像", "定制", "极低门槛"],
+    "oneLiner": "用开源AI工具帮养宠人士生成宠物艺术肖像，Etsy已验证$15-25/套需求，零技术门槛即可操作",
+    "painPoints": [
+      "养宠人士对宠物的情感投入高，愿意为个性化宠物周边付费",
+      "传统宠物摄影/绘画成本高（几百到上千元），且需要宠物配合拍摄",
+      "宠物主题的个性化礼物选择少，定制化需求未被满足"
+    ],
+    "targetUsers": [
+      "养猫/养狗的年轻人（18-35岁），视宠物为家人",
+      "想给宠物做纪念周边的宠主（生日/纪念日/宠物去世纪念）",
+      "想兼职做宠物定制服务赚外快的设计师/宠物博主"
+    ],
+    "useScenarios": [
+      "宠物生日/纪念日定制艺术肖像作为礼物",
+      "宠物去世后制作纪念肖像（情感刚需）",
+      "宠物博主/IP账号的头像和周边素材定制",
+      "宠物社群/宠物店的客户增值服务"
+    ],
+    "tools": [
+      {
+        "name": "ComfyUI",
+        "githubUrl": "https://github.com/comfyanonymous/ComfyUI",
+        "usage": "搭建宠物肖像工作流，支持宠物照片风格化转绘（油画/卡通/皇室/宇航员等风格）",
+        "projectSlug": null,
+        "alternatives": ["https://github.com/AUTOMATIC1111/stable-diffusion-webui"]
+      },
+      {
+        "name": "IP-Adapter",
+        "githubUrl": "https://github.com/tencent-ailab/IP-Adapter",
+        "usage": "保持宠物面部特征一致性，让AI生成的肖像仍然'像你家的猫/狗'",
+        "projectSlug": null,
+        "alternatives": ["https://github.com/InstantID/InstantID"]
+      }
+    ],
+    "toolSources": [
+      "ComfyUI宠物肖像工作流在OpenArt/Civitai上有大量免费模板",
+      "IP-Adapter由腾讯AI Lab开源，在宠物面部保持上效果优秀",
+      "Stable Diffusion生态中宠物模型丰富（如furarchi/yiffymix等专用模型）"
+    ],
+    "techBarrier": "极低 — 比AI亲子照更简单（宠物面部一致性模型成熟，下载即用）",
+    "setupTime": "1-2天（安装ComfyUI + 下载宠物专用模型 + 导入工作流模板）",
+    "entryBarrier": "极低 — 无需摄影/绘画技能，无需商业资质，无需店面",
+    "startupCost": "约2000-5000元（中端NVIDIA显卡或云GPU + 模型下载）",
+    "timeInvestment": "兼职：每周3-8小时；全职：每天3-5小时（单均15-25分钟完成）",
+    "competitors": [
+      {
+        "name": "Etsy宠物AI肖像卖家",
+        "productForm": "Etsy数字商品",
+        "pricing": "$15-25数字版 / $40-100打印+装裱版",
+        "acquisition": "Etsy站内搜索+Instagram/TikTok引流",
+        "estimatedMonthly": "头部卖家月收入$2000-5000",
+        "learnFrom": "标准化商品描述+多风格选项+数字/打印分层定价策略",
+        "differentiationGap": "国内市场几乎空白——小红书仅少量博主在做，竞争极低；用ComfyUI开源方案边际成本为零"
+      },
+      {
+        "name": "小红书AI宠物写真博主",
+        "productForm": "私域接单",
+        "pricing": "15-35元/套",
+        "acquisition": "小红书宠物话题+评论区引流",
+        "estimatedMonthly": "活跃博主月入3000-8000元",
+        "learnFrom": "宠物社区运营（猫组/狗组）+ 情感共鸣型内容",
+        "differentiationGap": "当前博主数量极少（搜索'AI宠物写真'结果<500条），蓝海窗口期"
+      }
+    ],
+    "revenueChannels": [
+      "小红书/闲鱼引流 → 微信私域接单（15-35元/套）",
+      "分层产品：数字版15元 / 打印装裱版50-80元 / 多宠组合100元",
+      "宠物社群/宠物店B端合作（分成或批量订单）",
+      "宠物主题节日营销（国际爱猫日/爱狗日/宠物生日月）",
+      "宠物IP头像定制——帮助宠物博主打造专属视觉形象"
+    ],
+    "estimatedIncome": "兼职月收入800-3000元，全职可达5000-12000元",
+    "paybackPeriod": "1-2周（3-5个订单即可覆盖云GPU月费，硬件投资1-2个月回本）",
+    "risks": [
+      "国内宠物定制市场仍在早期教育阶段，需求需要内容引导激活",
+      "Etsy国际竞争者在价格和品类上有先发优势",
+      "宠物照片质量参差不齐影响出图效果（需提供拍照指南）",
+      "AI生成宠物内容可能涉及版权争议（如模仿知名IP风格）"
+    ],
+    "trend": "宠物经济持续增长（中国城镇宠物消费市场2025年超3000亿元）；'宠物即家人'观念深入人心，宠物个性化消费意愿强；AI图像生成技术成熟使宠物肖像定制成本从几百元降至几元；国内市场供给严重不足——搜索'AI宠物写真'相关博主不到50人",
+    "successCases": [
+      {
+        "name": "Etsy宠物肖像工作室",
+        "platform": "Etsy",
+        "incomeRange": "月收入$2000-5000（约1.5-3.6万人民币）",
+        "operationDuration": "运营1.5年，好评500+",
+        "sourceUrl": "https://www.etsy.com/search?q=ai+pet+portrait"
+      },
+      {
+        "name": "小红书@AI宠物画廊",
+        "platform": "小红书",
+        "incomeRange": "月入3000-6000元",
+        "operationDuration": "运营5个月，粉丝8000+",
+        "sourceUrl": "https://www.xiaohongshu.com/explore"
+      }
+    ],
+    "linkedProjectSlugs": [],
+    "recommendedStack": [
+      "ComfyUI（工作流引擎）",
+      "IP-Adapter（宠物面部特征保持）",
+      "Stable Diffusion宠物专用模型",
+      "Canva（成品展示图/价格表设计）",
+      "微信/闲鱼（获客+成交）"
+    ],
+    "learningPath": [
+      {
+        "step": 1,
+        "title": "环境搭建：装好ComfyUI+宠物模型",
+        "action": "安装ComfyUI，下载宠物专用模型（如furarchi/yiffymix），导入宠物肖像工作流模板",
+        "toolsNeeded": ["秋叶ComfyUI整合包", "宠物专用SD模型", "宠物肖像工作流模板"],
+        "expectedOutput": "能生成第一张宠物AI肖像图片",
+        "timeRequired": "2-3小时",
+        "detailedGuide": "1) 安装ComfyUI（参考场景1步骤1）；2) 在Civitai搜索'pet portrait''animal style'等关键词下载宠物专用模型；3) 下载furarchi或yiffymix模型放入models/checkpoints；4) 在OpenArt搜索'pet portrait ComfyUI workflow'导入模板；5) 上传一张宠物照片测试生成效果。",
+        "pitfalls": ["宠物模型与人物模型不同——不要用人物模型生成宠物图", "猫和狗可能需要不同模型——分别测试找最佳组合"]
+      },
+      {
+        "step": 2,
+        "title": "风格模板：掌握5种热门宠物肖像风格",
+        "action": "配置并测试皇室油画/宇航员/日系插画/水彩/Q版卡通五种热门风格，建立风格模板库",
+        "toolsNeeded": ["ComfyUI", "IP-Adapter", "5种风格对应的LoRA模型", "prompt模板"],
+        "expectedOutput": "每种风格都能稳定出图3-5张，质量达到可交付标准",
+        "timeRequired": "1-2天",
+        "detailedGuide": "1) 在Civitai分别搜索并下载5种风格的LoRA模型（royal portrait/pet astronaut/anime pet/watercolor pet/cartoon pet）；2) 在ComfyUI中分别为每种风格配置workflow并保存；3) 用同一张宠物照片测试5种风格的出图效果；4) 记录每种风格的最佳参数（CFG scale/采样步数/LoRA权重）。",
+        "pitfalls": ["LoRA权重过高会导致画面崩坏——建议0.6-0.8起步测试", "不同品种的猫狗可能需要微调prompt（如'橘猫''柯基''金毛'等关键词）"]
+      },
+      {
+        "step": 3,
+        "title": "产品设计：定好产品线和价格",
+        "action": "设计3条产品线（数字版/打印版/组合版），确定每条产品线的规格和价格",
+        "toolsNeeded": ["Canva", "草料二维码", "微信"],
+        "expectedOutput": "完整的产品价格表+案例展示图+下单页面",
+        "timeRequired": "3-5小时",
+        "detailedGuide": "1) 设计产品线：数字版15元/张（含1种风格）、精装版58元（含3种风格+电子相框模板）、尊享版98元（含5种风格+打印邮寄）；2) 用Canva制作每档产品的展示图；3) 准备20+张不同品种宠物的案例样片；4) 设置微信快捷回复和下单流程。",
+        "pitfalls": ["前期不要做打印邮寄——先做纯数字版验证需求，打印外包风险大", "定价不宜过低——15元起步是底线，太低用户不重视"]
+      },
+      {
+        "step": 4,
+        "title": "获客：切入宠物社群和小红书",
+        "action": "在宠物社群（微信群/豆瓣猫组狗组）+ 小红书发布内容，精准触达目标用户",
+        "toolsNeeded": ["小红书", "微信", "宠物社群"],
+        "expectedOutput": "加入5+宠物社群+发布3篇小红书笔记+获取首批10+咨询用户",
+        "timeRequired": "2-3天",
+        "detailedGuide": "1) 搜索并加入本地宠物群/品种群/救助群（微信搜索'猫群''柯基群'等）；2) 先活跃互动（回答养宠问题）建立信任，再自然展示宠物肖像服务；3) 小红书发布'给主子做了张皇室肖像，太合适了！'类笔记；4) 评论区互动引流到微信。",
+        "pitfalls": ["不要在社群直接打广告——先提供价值再自然提及", "宠物主人对'像不像'很敏感——案例图一定要选像的"]
+      },
+      {
+        "step": 5,
+        "title": "接单与交付：完成第一个宠物肖像订单",
+        "action": "从首个咨询用户开始，完成需求确认→生成→客户确认→交付→收款完整流程",
+        "toolsNeeded": ["微信", "ComfyUI", "云盘"],
+        "expectedOutput": "收到第一笔宠物肖像收入（15-58元），获得客户反馈和评价",
+        "timeRequired": "1天（首单学习，后续15-25分钟/单）",
+        "detailedGuide": "1) 确认宠物品种/颜色/特征（如'橘猫白手套''黑柴黄眉'）；2) 让客户提供3-5张宠物清晰正面照；3) 提供风格选择图让客户勾选想要的风格；4) 生成3-4张备选让客户挑选；5) 最终交付无水印高清图+适配手机壁纸版本（增加附加值）。",
+        "pitfalls": ["纯黑猫/纯白狗可能特征不明显——提前告知可能效果不如花色明显的宠物", "提供手机壁纸版本是小成本大满意度的动作——强烈推荐"]
+      },
+      {
+        "step": 6,
+        "title": "规模化：建立风格库和多元变现",
+        "action": "积累风格模板→建立客户案例库→拓展B端合作和宠物周边变现",
+        "toolsNeeded": ["ComfyUI模板库", "飞书客户管理", "社交媒体矩阵"],
+        "expectedOutput": "10+风格模板+50+客户案例库+月收入稳定2000元以上",
+        "timeRequired": "持续优化1-2周",
+        "detailedGuide": "1) 持续增加新风格模板（万圣节/圣诞节/宠物婚纱等节日限定）；2) 建立'品种-风格'最佳效果对照表（如'金毛适合油画风''布偶猫适合日系风'）；3) 联系本地宠物店/宠物医院谈合作分成；4) 考虑做宠物AI写真教程售卖（小红书/闲鱼）。",
+        "pitfalls": ["B端合作先小规模测试——1-2家店试3个月再扩", "注意宠物照片版权——客户提供的照片仅用于本次制作"]
+      }
+    ],
+    "resources": [
+      {
+        "title": "Civitai宠物专用模型集合",
+        "type": "tool",
+        "url": "https://civitai.com/search/models?query=pet+portrait",
+        "cost": "free",
+        "description": "Civitai上宠物肖像相关模型和LoRA，含油画/卡通/写实等多种风格"
+      },
+      {
+        "title": "宠物肖像ComfyUI工作流",
+        "type": "template",
+        "url": "https://openart.ai/workflows/search?q=pet+portrait",
+        "cost": "free",
+        "description": "OpenArt社区宠物肖像工作流模板，可直接导入使用"
+      },
+      {
+        "title": "宠物摄影拍照指南模板",
+        "type": "tutorial",
+        "url": "",
+        "cost": "free",
+        "description": "发给客户的宠物拍照指南——如何拍出适合AI生成的照片（可自制Canva模板）"
+      },
+      {
+        "title": "宠物AI写真获客话术",
+        "type": "script",
+        "url": "",
+        "cost": "free",
+        "description": "宠物社群+小红书引流话术模板（可基于场景1话术改编）"
+      }
+    ],
+    "dataConfidence": "ai-estimated",
+    "lastUpdated": "2026-05-11T00:00:00+08:00",
+    "marketSources": [
+      "https://www.etsy.com/search?q=ai+pet+portrait（价格和竞品参考）",
+      "小红书搜索'AI宠物写真''宠物AI画像'（国内市场调研）",
+      "https://github.com/comfyanonymous/ComfyUI（工具可用性验证）",
+      "https://github.com/tencent-ailab/IP-Adapter（面部保持工具验证）"
+    ]
+  }
+]

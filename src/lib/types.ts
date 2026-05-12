@@ -204,3 +204,88 @@ export interface FullReport {
   /** LLM 一并返回的快速判断卡缓存 */
   _快速判断卡?: QuickCard;
 }
+
+// ============================================================
+// 场景系统类型定义
+// ============================================================
+
+export type DataConfidence = 'verified' | 'ai-estimated' | 'speculative';
+
+export const SCENE_SORT_OPTIONS = ['default', 'barrier-asc'] as const;
+export type SceneSortOption = (typeof SCENE_SORT_OPTIONS)[number];
+
+export interface ToolRef {
+  name: string;
+  githubUrl: string;
+  usage: string;
+  projectSlug: string | null;
+  alternatives: string[];
+}
+
+export interface CompetitorScene {
+  name: string;
+  productForm: string;
+  pricing: string;
+  acquisition: string;
+  estimatedMonthly: string;
+  learnFrom: string;
+  differentiationGap: string;
+}
+
+export interface SuccessCase {
+  name: string;
+  platform: string;
+  incomeRange: string;
+  operationDuration: string;
+  sourceUrl: string;
+}
+
+export interface Resource {
+  title: string;
+  type: 'template' | 'tutorial' | 'tool' | 'asset' | 'script';
+  url: string;
+  cost: 'free' | 'paid' | 'freemium';
+  description: string;
+}
+
+export interface LearningStep {
+  step: number;
+  title: string;
+  action: string;
+  toolsNeeded: string[];
+  expectedOutput: string;
+  timeRequired: string;
+  detailedGuide: string;
+  pitfalls: string[];
+}
+
+export interface Scene {
+  slug: string;
+  name: string;
+  tags: string[];
+  oneLiner: string;
+  painPoints: string[];
+  targetUsers: string[];
+  useScenarios: string[];
+  tools: ToolRef[];
+  toolSources: string[];
+  techBarrier: string;
+  setupTime: string;
+  entryBarrier: string;
+  startupCost: string;
+  timeInvestment: string;
+  competitors: CompetitorScene[];
+  revenueChannels: string[];
+  estimatedIncome: string;
+  paybackPeriod: string;
+  risks: string[];
+  trend: string;
+  successCases: SuccessCase[];
+  linkedProjectSlugs: string[];
+  recommendedStack: string[];
+  learningPath: LearningStep[];
+  resources: Resource[];
+  dataConfidence: DataConfidence;
+  lastUpdated: string;
+  marketSources: string[];
+}
