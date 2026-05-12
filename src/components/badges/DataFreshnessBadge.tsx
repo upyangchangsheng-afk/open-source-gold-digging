@@ -1,7 +1,7 @@
 import { getDataFreshness } from '@/lib/scenes';
 
-export default function DataFreshnessBadge({ lastUpdated }: { lastUpdated: string }) {
-  const { status, days } = getDataFreshness(lastUpdated);
+export default function DataFreshnessBadge({ lastUpdated, expirationDays }: { lastUpdated: string; expirationDays?: number }) {
+  const { status, days } = getDataFreshness(lastUpdated, expirationDays);
 
   if (status === 'fresh') {
     return (

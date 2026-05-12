@@ -65,9 +65,25 @@ export default function ProjectCard({ project }: { project: Project }) {
         <div className="mt-3 rounded-xl border border-black/5 bg-gradient-to-br from-[#fafaf9] to-white p-3">
           <div className="flex items-center gap-2 mb-2">
             <FeasibilityBadge rating={card.可行性总评} />
-            <span className="text-[11px] text-[#8a8a8a]">🤖 AI分析</span>
+            {card.可信度 && (() => {
+              const c = card.可信度;
+              const color = c.startsWith('🟢') ? 'bg-green-50 text-green-700' :
+                c.startsWith('🟡') ? 'bg-yellow-50 text-yellow-700' :
+                c.startsWith('🔴') ? 'bg-red-50 text-red-700' :
+                'bg-gray-50 text-gray-600';
+              return (
+                <span className={`inline-flex items-center rounded-full px-1.5 py-0.5 text-[11px] font-medium ${color}`}>
+                  {c}
+                </span>
+              );
+            })()}
           </div>
-          <div className="grid grid-cols-1 gap-1.5 text-xs">
+          {card.核心卖点 && (
+            <p className="text-xs font-medium text-[#404040] mb-2 leading-relaxed">
+              {card.核心卖点}
+            </p>
+          )}
+          <div className="grid grid-cols-1 gap-1.5 text-xs border-t border-black/5 pt-2">
             <div className="flex items-baseline gap-1">
               <span className="text-[#8a8a8a] shrink-0">产品形态：</span>
               <span className="text-[#404040] font-medium">{card.推荐产品形态}</span>

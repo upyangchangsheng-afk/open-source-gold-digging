@@ -28,8 +28,18 @@ export default function SceneCard({ scene }: { scene: Scene }) {
           </span>
         ))}
         <div className="ml-auto flex items-center gap-1.5">
+          {scene.sceneType === 'candidate' && (
+            <span className="inline-flex items-center rounded-full bg-purple-50 px-1.5 py-0.5 text-[10px] text-purple-600">
+              AI发现
+            </span>
+          )}
+          {scene.sceneType === 'exploratory' && (
+            <span className="inline-flex items-center rounded-full bg-gray-50 px-1.5 py-0.5 text-[10px] text-gray-500">
+              探索
+            </span>
+          )}
           <ConfidenceBadge level={scene.dataConfidence} />
-          <DataFreshnessBadge lastUpdated={scene.lastUpdated} />
+          <DataFreshnessBadge lastUpdated={scene.lastUpdated} expirationDays={scene.expirationDays} />
         </div>
       </div>
 

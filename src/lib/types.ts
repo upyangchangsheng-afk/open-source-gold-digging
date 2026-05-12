@@ -102,6 +102,17 @@ export interface Project {
     解决什么: string;
     预期效果: string;
   }>;
+
+  /** 反向场景关联 */
+  linkedSceneSlugs?: string[];
+  /** LLM场景潜力评估 */
+  scenePotential?: {
+    score: number;
+    suggestedSceneNames: string[];
+    matchedExistingScenes: string[];
+  };
+  /** 项目健康状态 */
+  healthStatus?: 'active' | 'archived' | 'not_found';
 }
 
 export interface WeeklyPick {
@@ -288,4 +299,17 @@ export interface Scene {
   dataConfidence: DataConfidence;
   lastUpdated: string;
   marketSources: string[];
+  /** 场景分级: deep=深度验证, candidate=AI发现, exploratory=探索 */
+  sceneType?: 'deep' | 'candidate' | 'exploratory';
+  /** 过期天数阈值: deep=180, candidate=90, exploratory=60 */
+  expirationDays?: number;
+  /** 自检清单 */
+  selfCheck?: string[];
+  /** 今日行动卡 */
+  todaysAction?: {
+    title: string;
+    description: string;
+    timeEstimate: string;
+    link?: string;
+  };
 }

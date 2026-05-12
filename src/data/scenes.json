@@ -97,7 +97,26 @@
         "sourceUrl": "https://www.36kr.com/search/articles/miaoya"
       }
     ],
-    "linkedProjectSlugs": [],
+    "linkedProjectSlugs": [
+      "invoke-ai-InvokeAI",
+      "Davronov-Alimardon-canva-clone",
+      "Anil-matcha-Open-Lovart",
+      "lucidrains-make-a-video-pytorch",
+      "YILS-LIN-short-video-factory"
+    ],
+    "selfCheck": [
+      "你有一台带NVIDIA显卡的电脑或愿意租用云GPU吗？",
+      "你有小红书/抖音账号，可以从这些平台获客吗？",
+      "你不排斥用AI工具处理客户照片，并告知客户数据用途吗？",
+      "你能每周投入5-10小时兼职操作吗？",
+      "你对AI工具学习有兴趣，愿意花1-3天搭建环境吗？"
+    ],
+    "todaysAction": {
+      "title": "安装ComfyUI并跑通第一张AI写真",
+      "description": "下载秋叶整合包一键安装ComfyUI，导入亲子写真工作流模板，用一张自己的照片测试出图效果。这是最难的也是最重要的一步，完成后你就知道这条路是否适合你。",
+      "timeEstimate": "约2-3小时",
+      "link": "https://www.bilibili.com/video/BV1Dv4y1G7Yu"
+    },
     "recommendedStack": [
       "ComfyUI（工作流引擎）",
       "InstantID（面部一致性保持）",
@@ -306,7 +325,26 @@
         "sourceUrl": "https://www.xiaohongshu.com/explore"
       }
     ],
-    "linkedProjectSlugs": [],
+    "linkedProjectSlugs": [
+      "invoke-ai-InvokeAI",
+      "Davronov-Alimardon-canva-clone",
+      "Anil-matcha-Open-Lovart",
+      "liangdabiao-perler-beads-ai",
+      "lucidrains-make-a-video-pytorch"
+    ],
+    "selfCheck": [
+      "你喜欢猫狗等宠物，或者你身边有很多养宠物的朋友吗？",
+      "你有小红书/抖音/微信朋友圈可以触达养宠人群吗？",
+      "你有一台带NVIDIA显卡的电脑或愿意租用云GPU吗？",
+      "你能接受AI生成宠物肖像需要反复调整参数吗？",
+      "你对宠物周边产品（挂画、抱枕、手机壳）定制有兴趣吗？"
+    ],
+    "todaysAction": {
+      "title": "给你自己的宠物生成第一张AI艺术肖像",
+      "description": "安装ComfyUI并导入宠物肖像工作流，用你的宠物的照片测试出图。从3-5种风格中选出最好看的一张，发朋友圈看看反应——如果朋友想下单，你就找到了第一个客户。",
+      "timeEstimate": "约2-3小时",
+      "link": "https://www.bilibili.com/video/BV1Dv4y1G7Yu"
+    },
     "recommendedStack": [
       "ComfyUI（工作流引擎）",
       "IP-Adapter（宠物面部特征保持）",

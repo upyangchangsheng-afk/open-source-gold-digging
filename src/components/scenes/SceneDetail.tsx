@@ -30,7 +30,7 @@ export default function SceneDetail({ scene }: { scene: Scene }) {
           ))}
           <div className="flex items-center gap-1.5 ml-auto">
             <ConfidenceBadge level={scene.dataConfidence} />
-            <DataFreshnessBadge lastUpdated={scene.lastUpdated} />
+            <DataFreshnessBadge lastUpdated={scene.lastUpdated} expirationDays={scene.expirationDays} />
           </div>
         </div>
         <h1 className="text-[28px] font-bold leading-tight text-[#171717] sm:text-3xl">
@@ -39,6 +39,13 @@ export default function SceneDetail({ scene }: { scene: Scene }) {
         <p className="mt-3 text-lg leading-relaxed text-[#404040]">
           {scene.oneLiner}
         </p>
+        {scene.sceneType && scene.sceneType !== 'deep' && (
+          <div className="mt-3 rounded-lg bg-purple-50 p-3 text-sm text-purple-700">
+            {scene.sceneType === 'candidate'
+              ? '此场景由AI自动发现，数据为AI估算，仅供参考。信息需人工验证后升级为深度场景。'
+              : '此场景为探索性方向，信息可能不完整，仅供参考。'}
+          </div>
+        )}
       </div>
 
       {/* ---- 1. 痛点 ---- */}
@@ -75,6 +82,23 @@ export default function SceneDetail({ scene }: { scene: Scene }) {
           ))}
         </ul>
       </Section>
+
+      {/* ---- 3.5. 自检清单 ---- */}
+      {scene.selfCheck && scene.selfCheck.length > 0 && (
+        <Section title="✅ 这个方向适合我吗？">
+          <ul className="space-y-3">
+            {scene.selfCheck.map((q, i) => (
+              <li key={i} className="flex items-start gap-3 rounded-lg bg-[#fafaf9] p-3">
+                <input type="checkbox" className="mt-1 h-4 w-4 accent-[#2563eb]" id={`check-${i}`} />
+                <label htmlFor={`check-${i}`} className="text-sm text-[#404040] cursor-pointer">{q}</label>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-3 text-xs text-[#8a8a8a]">
+            勾选 70% 以上说明这个方向适合你，可以继续往下看
+          </p>
+        </Section>
+      )}
 
       {/* ---- 4. 核心工具 ---- */}
       <Section title="🔧 核心工具">
@@ -237,21 +261,58 @@ export default function SceneDetail({ scene }: { scene: Scene }) {
             {scene.linkedProjectSlugs.map((slug) => {
               const project = getProjectBySlug(slug);
               if (!project) return null;
+              const health = project.healthStatus;
               return (
                 <Link
                   key={slug}
                   href={`/deep-dive/${slug}`}
                   className="flex items-center gap-3 rounded-lg border border-black/5 bg-white p-3 no-underline hover:shadow-sm"
                 >
-                  <span className="text-lg">📌</span>
-                  <div>
-                    <p className="font-medium text-[#171717]">{project.repo}</p>
+                  <span className="text-lg">{health === 'archived' ? '📦' : health === 'not_found' ? '❓' : '📌'}</span>
+                  <div className="min-w-0 flex-1">
+                    <p className="font-medium text-[#171717]">
+                      {project.repo}
+                      {health === 'archived' && (
+                        <span className="ml-2 inline-flex rounded-full bg-yellow-100 px-1.5 py-0.5 text-[10px] text-yellow-700">已归档</span>
+                      )}
+                      {health === 'not_found' && (
+                        <span className="ml-2 inline-flex rounded-full bg-red-100 px-1.5 py-0.5 text-[10px] text-red-700">不可用</span>
+                      )}
+                    </p>
                     <p className="text-xs text-[#8a8a8a] line-clamp-1">{project.oneLiner || project.description}</p>
+                    {health && health !== 'active' && (
+                      <p className="mt-0.5 text-[10px] text-yellow-600">
+                        {health === 'archived' ? '该项目已被归档，代码仍可参考但已停止维护' : '该项目仓库不可访问，可能已删除或更名'}
+                      </p>
+                    )}
                   </div>
-                  <span className="ml-auto text-xs text-[#2563eb]">详情 →</span>
+                  <span className="ml-auto shrink-0 text-xs text-[#2563eb]">详情 →</span>
                 </Link>
               );
             })}
+          </div>
+        </Section>
+      )}
+
+      {/* ---- 14.5. 今日行动 ---- */}
+      {scene.todaysAction && (
+        <Section title="⚡ 今天就能动手的一件事">
+          <div className="rounded-xl bg-gradient-to-br from-[#2563eb]/5 to-[#1d4ed8]/5 p-5 border border-[#2563eb]/10">
+            <h4 className="font-semibold text-[#171717]">{scene.todaysAction.title}</h4>
+            <p className="mt-2 text-sm text-[#404040]">{scene.todaysAction.description}</p>
+            <div className="mt-3 flex items-center justify-between">
+              <span className="text-xs text-[#8a8a8a]">预计耗时：{scene.todaysAction.timeEstimate}</span>
+              {scene.todaysAction.link && (
+                <a
+                  href={scene.todaysAction.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs font-medium text-[#2563eb] no-underline hover:underline"
+                >
+                  开始动手 →
+                </a>
+              )}
+            </div>
           </div>
         </Section>
       )}

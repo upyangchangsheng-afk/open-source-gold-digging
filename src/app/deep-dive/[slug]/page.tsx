@@ -51,6 +51,7 @@ export default async function DeepDivePage({
           report={project.fullReport}
           quickCard={project.quickCard}
         />
+        <ScenePotential project={project} />
       </div>
 
       {/* 反向场景关联 */}
@@ -75,6 +76,32 @@ export default async function DeepDivePage({
           </Link>
         </div>
       </div>
+    </div>
+  );
+}
+
+function ScenePotential({ project }: { project: ReturnType<typeof getProjectBySlug> }) {
+  if (!project) return null;
+  const scenarios = project.fullReport?.['项目匹配']?.['适用场景'];
+  const targetUsers = project.quickCard?.目标用户;
+  if (!scenarios && !targetUsers) return null;
+
+  return (
+    <div className="mt-6 rounded-2xl border border-black/5 bg-gradient-to-br from-[#fefce8] to-white p-6">
+      <h3 className="text-lg font-bold text-[#171717]">💡 可能适合的商业场景</h3>
+      {scenarios && (
+        <p className="mt-2 text-sm text-[#404040] leading-relaxed">{scenarios}</p>
+      )}
+      {targetUsers && (
+        <p className="mt-2 text-xs text-[#8a8a8a]">
+          目标用户：{targetUsers}
+        </p>
+      )}
+      {project.quickCard?.可行性总评 && (
+        <div className="mt-3 inline-flex items-center rounded-full bg-amber-50 px-2.5 py-0.5 text-xs text-amber-700">
+          AI可行性评估：{project.quickCard.可行性总评}
+        </div>
+      )}
     </div>
   );
 }

@@ -149,6 +149,9 @@ function transform() {
       fullReport: a.完整报告 || null,
       techStack: normalizeTechStack(a.技术栈),
       useCases: a.使用案例 || [],
+
+      // 场景匹配（B6: 采集管道嵌入）
+      linkedSceneSlugs: a.matched_scenes || [],
     });
   }
 
